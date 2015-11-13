@@ -78,7 +78,11 @@ public class Query {
         return this.weight.get(idx);
     }
 
-    public void weightLength(int n)
+    /**
+     * add weight instances, amount of n
+     * @param n
+     */
+    public void addWeight(int n)
     {
         for (int i=0; i<n; i++)
             this.weight.add(0.0);

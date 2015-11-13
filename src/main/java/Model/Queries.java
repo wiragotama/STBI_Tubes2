@@ -6,7 +6,6 @@ import Preprocessor.Preprocessor;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -168,8 +167,36 @@ public class Queries {
 
             Query n = new Query(tokens);
             this.queries.get(i).setQuery(tokens);
-            this.queries.get(i).weightLength(tokens.size());
+            this.queries.get(i).addWeight(tokens.size());
             //this.queries.set(i, n);
         }
+    }
+
+    /**
+     * Set weight of query
+     * @param query
+     * @param termIdx
+     * @param val
+     */
+    public void setWeight(int query, int termIdx, double val) {
+        this.queries.get(query).setWeight(termIdx, val);
+    }
+
+    /**
+     * Set query at idx to q
+     * @param idx
+     * @param q
+     */
+    public void setQuery(int idx, Query q) {
+        this.queries.put(idx, q);
+    }
+
+    /**
+     * add weight of query at idx, amount of n
+     * @param idx
+     * @param n
+     */
+    public void addWeight(int idx, int n) {
+        this.queries.get(idx).addWeight(n);
     }
 }

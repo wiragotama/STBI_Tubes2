@@ -28,7 +28,9 @@ public class Option {
     public boolean queryStem;
 
     //tambahan spek baru
-    public int relevanceFeedback; //0 rocchio, 1 ide reguler, 2 ide dec-hi, -1 kalau experimen biasa
+    public int relevanceFeedbackAlgo; //0 rocchio, 1 ide reguler, 2 ide dec-hi, -1 kalau experimen biasa
+    public boolean isRelevanceFeedback; //false if pseudo
+    public boolean isQueryExpansion; //expand query when using relevance feedback
     public int secondRetrievalDocs; //0 same as first, 1 different from the first (collections - yang sudah muncul)
 
     //berkaitan dengan runtime
@@ -42,6 +44,7 @@ public class Option {
     //add when needed
     public static final String filePath = "savedFiles/option";
     public String queryInput; //klo gk experiment, berarti ada query
+    public int topN;
 
     /**
      * Default Constructor
@@ -62,7 +65,9 @@ public class Option {
         this.queryUseIDF = false;
         this.queryTFOption = 1;
 
-        this.relevanceFeedback = 0;
+        this.relevanceFeedbackAlgo = -1;
+        this.isRelevanceFeedback = false;
+        this.isQueryExpansion = false;
         this.secondRetrievalDocs = 0;
 
         this.isExperiment = true;
@@ -72,6 +77,7 @@ public class Option {
         this.queryPath = "test_collections/adi/query.text";
         this.relevanceJudgmentPath = "test_collections/adi/qrels/text";
         this.queryInput = "information retrieval";
+        this.topN = 0;
     }
 
     /**
@@ -98,8 +104,9 @@ public class Option {
         try {
             while((line = reader.readLine()) != null){
                 String split[] = line.split(" ");
-                this.stopwordsRemoval = Boolean.valueOf(split[1]);
-                stopwordsPath = String.valueOf(split[19]);
+                this.stopwordsRemoval = Boolean.valueOf(split[0]);
+                stopwordsPath = String.valueOf(split[1]);
+                stopwordsPath = String.valueOf(split[1]);
 
                 this.documentStem = Boolean.valueOf(split[2]);
                 this.documentNormalization = Boolean.valueOf(split[3]);
@@ -111,15 +118,18 @@ public class Option {
                 this.queryUseIDF = Boolean.valueOf(split[8]);
                 this.queryTFOption = Integer.valueOf(split[9]);
 
-                this.relevanceFeedback = Integer.valueOf(split[10]);
-                this.secondRetrievalDocs = Integer.valueOf(split[11]);
+                this.relevanceFeedbackAlgo = Integer.valueOf(split[10]);
+                this.isRelevanceFeedback = Boolean.valueOf(split[11]);
+                this.isQueryExpansion = Boolean.valueOf(split[12]);
+                this.secondRetrievalDocs = Integer.valueOf(split[13]);
 
-                isExperiment = Boolean.valueOf(split[12]);
-                isNormalInteractive = Boolean.valueOf(split[13]);
-                isFeedbackInteractive = Boolean.valueOf(split[14]);
-                documentPath = String.valueOf(split[15]);
-                queryPath = String.valueOf(split[16]);
-                relevanceJudgmentPath = String.valueOf(split[17]);
+                isExperiment = Boolean.valueOf(split[14]);
+                isNormalInteractive = Boolean.valueOf(split[15]);
+                isFeedbackInteractive = Boolean.valueOf(split[16]);
+                documentPath = String.valueOf(split[17]);
+                queryPath = String.valueOf(split[18]);
+                relevanceJudgmentPath = String.valueOf(split[19]);
+                this.topN = Integer.valueOf(split[20]);
             }
 
             while ((line = readerQ.readLine())!=null) {
@@ -149,9 +159,10 @@ public class Option {
             writer = new PrintWriter(filePath, "UTF-8");
             String out = this.stopwordsRemoval + " " + stopwordsPath + " " + this.documentStem + " "+this.documentNormalization
                     + " " + this.documentUseIDF +" "+ this.documentTFOption + " " + this.queryStem + " "+this.queryNormalization
-                    +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedback +" "+this.secondRetrievalDocs
+                    +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedbackAlgo +" "+this.isRelevanceFeedback
+                    +" "+this.isQueryExpansion+" "+this.secondRetrievalDocs
                     +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                    +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
+                    +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN;
             writer.println(out);
             writer.close();
 
@@ -174,17 +185,18 @@ public class Option {
     {
         String out = this.stopwordsRemoval + " " + stopwordsPath + " " + this.documentStem + " "+this.documentNormalization
                 + " " + this.documentUseIDF +" "+ this.documentTFOption + " " + this.queryStem + " "+this.queryNormalization
-                +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedback +" "+this.secondRetrievalDocs
+                +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedbackAlgo +" "+this.isRelevanceFeedback
+                +" "+this.isQueryExpansion+" "+this.secondRetrievalDocs
                 +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
+                +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN;
         System.out.println("Option ["+out+"]");
         System.out.println("Query ["+queryInput+"]");
     }
 
     /**
-     * Read Option for TF, IDF, Normalization, Stemming, and Experiment / Interactive from GUI, special for experiment
+     * Read Option for TF, IDF, Normalization, Stemming, and Experiment / Interactive from GUI, special for experiment (tubes 1)
      */
-    private void readOption() {
+    /*private void readOption() {
         isExperiment = true;
         String currentLine;
         Scanner scanner = new Scanner(System.in);
@@ -274,7 +286,7 @@ public class Option {
             this.queryStem = false;
         else if (currentLine.equalsIgnoreCase("usingstemming"))
             this.queryStem = true;
-    }
+    }*/
 
     /**
      * Read Query from File
