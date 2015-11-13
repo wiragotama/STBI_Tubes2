@@ -25,25 +25,25 @@ public class mainTest {
         //klo read dr file
         ops.relevanceFeedbackAlgo = 1;
         ops.isRelevanceFeedback = false;
-        ops.isQueryExpansion = true;
+        ops.isQueryExpansion = false;
         ops.secondRetrievalDocs = 0;
         ops.topN = 5;
 
         //cara load document, bisa juga pathnya di-supply dari options
-        Documents docs = new Documents("test_collections/adi/adi.all");
+        Documents docs = new Documents("test_collections/cisi/cisi.all");
         //docs.print();
         TokenizedDocuments tokDocs = new TokenizedDocuments();
         tokDocs.preprocessRawDocuments(docs, ops);
         //tokDocs.print();
 
         //cara load daftar query, bisa juga pathnya di-supply dari options
-        Queries q = new Queries("test_collections/adi/query.text");
+        Queries q = new Queries("test_collections/cisi/query.text");
         //q.print();
         q.preprocess(ops);
         //q.print();
 
         //cara load relevance judgement
-        RelevanceJudgement r = new RelevanceJudgement("test_collections/adi/qrels.text", q.size());
+        RelevanceJudgement r = new RelevanceJudgement("test_collections/cisi/qrels.text", q.size());
         //r.print();
 
         //pake VSM

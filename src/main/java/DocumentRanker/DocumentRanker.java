@@ -281,6 +281,8 @@ public class DocumentRanker {
                 else break;
             }
 
+            System.out.println("First retrieval "+qAt);
+
             //perhitungan query weighting baru, iterate per term dari query, tanpa query expansion
             if (option.isQueryExpansion) {
                 //term di query diubah pake semua term di vsm
@@ -332,6 +334,7 @@ public class DocumentRanker {
                 }
                 queries.setWeight(qAt, term, newWeight);
             }
+            System.out.println("First modification "+qAt);
             qAt++;
         }
 
