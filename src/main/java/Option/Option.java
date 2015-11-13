@@ -28,19 +28,20 @@ public class Option {
     public boolean queryStem;
 
     //tambahan spek baru
-    public int relevanceFeedback; //0 rocchio, 1 ide reguler, 2 ide dec-hi
+    public int relevanceFeedback; //0 rocchio, 1 ide reguler, 2 ide dec-hi, -1 kalau experimen biasa
     public int secondRetrievalDocs; //0 same as first, 1 different from the first (collections - yang sudah muncul)
 
     //berkaitan dengan runtime
     public boolean isExperiment;
     public boolean isNormalInteractive; //mode query normal
     public boolean isFeedbackInteractive; //more query dengan feedback
-    public String queryInput;
     public String documentPath;
     public String queryPath;
     public String relevanceJudgmentPath;
     public String stopwordsPath;
     //add when needed
+    public static final String filePath = "savedFiles/option";
+    public String queryInput; //klo gk experiment, berarti ada query
 
     /**
      * Default Constructor
@@ -67,28 +68,31 @@ public class Option {
         this.isExperiment = true;
         this.isNormalInteractive = false;
         this.isFeedbackInteractive = false;
-        this.queryInput = "information retrieval";
         this.documentPath = "test_collections/adi/adi.all";
         this.queryPath = "test_collections/adi/query.text";
         this.relevanceJudgmentPath = "test_collections/adi/qrels/text";
+        this.queryInput = "information retrieval";
     }
 
     /**
      * load from file
-     * @param filePath
      */
-    public void load(String filePath)
+    public void load()
     {
         System.out.println("Loading Option");
 
         File configFile = new File(filePath);
+        File queryInputFile = new File(filePath+".query");
         BufferedReader reader = null;
+        BufferedReader readerQ = null;
         String line = null;
 
         try {
             reader = new BufferedReader(new FileReader(configFile));
+            readerQ = new BufferedReader(new FileReader(queryInputFile));
         } catch (FileNotFoundException e) {
             System.out.println(filePath + " is not found");
+            System.out.println(filePath+".query" + " is not found");
         }
 
         try {
@@ -113,10 +117,13 @@ public class Option {
                 isExperiment = Boolean.valueOf(split[12]);
                 isNormalInteractive = Boolean.valueOf(split[13]);
                 isFeedbackInteractive = Boolean.valueOf(split[14]);
-                queryInput = String.valueOf(split[15]);
-                documentPath = String.valueOf(split[16]);
-                queryPath = String.valueOf(split[17]);
-                relevanceJudgmentPath = String.valueOf(split[18]);
+                documentPath = String.valueOf(split[15]);
+                queryPath = String.valueOf(split[16]);
+                relevanceJudgmentPath = String.valueOf(split[17]);
+            }
+
+            while ((line = readerQ.readLine())!=null) {
+                this.queryInput = line.toString();
             }
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -125,6 +132,7 @@ public class Option {
 
         try {
             reader.close();
+            readerQ.close();
         } catch (IOException ex) {
            ex.printStackTrace();
         }
@@ -132,9 +140,8 @@ public class Option {
 
     /**
      * Saving configuration options in making VSM
-     * @param filePath
      */
-    public void save(String filePath)
+    public void save()
     {
         System.out.println("Saving Option");
         try {
@@ -144,7 +151,13 @@ public class Option {
                     + " " + this.documentUseIDF +" "+ this.documentTFOption + " " + this.queryStem + " "+this.queryNormalization
                     +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedback +" "+this.secondRetrievalDocs
                     +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                    +" "+queryInput +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
+                    +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
+            writer.println(out);
+            writer.close();
+
+            writer = null;
+            writer = new PrintWriter(filePath+".query", "UTF-8");
+            out = queryInput;
             writer.println(out);
             writer.close();
         }
@@ -163,16 +176,16 @@ public class Option {
                 + " " + this.documentUseIDF +" "+ this.documentTFOption + " " + this.queryStem + " "+this.queryNormalization
                 +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedback +" "+this.secondRetrievalDocs
                 +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                +" "+queryInput +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
+                +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath;
         System.out.println("Option ["+out+"]");
+        System.out.println("Query ["+queryInput+"]");
     }
 
     /**
-     * Read Option for TF, IDF, Normalization, Stemming, and Experiment / Interactive from GUI
+     * Read Option for TF, IDF, Normalization, Stemming, and Experiment / Interactive from GUI, special for experiment
      */
-    private void readOption()
-    {
-        isExperiment=true;
+    private void readOption() {
+        isExperiment = true;
         String currentLine;
         Scanner scanner = new Scanner(System.in);
         currentLine = scanner.nextLine();
@@ -180,9 +193,6 @@ public class Option {
             isExperiment = true;
         else
             isExperiment = false;
-
-        if (isExperiment==false)
-            this.queryInput = scanner.nextLine();
 
         if (currentLine.equalsIgnoreCase("normalInteractive"))
             isNormalInteractive = true;
@@ -264,5 +274,37 @@ public class Option {
             this.queryStem = false;
         else if (currentLine.equalsIgnoreCase("usingstemming"))
             this.queryStem = true;
+    }
+
+    /**
+     * Read Query from File
+     */
+    public void readQueryInput()
+    {
+        System.out.println("Loading Query");
+        File queryInputFile = new File(filePath+".query");
+        BufferedReader readerQ = null;
+        String line = null;
+
+        try {
+            readerQ = new BufferedReader(new FileReader(queryInputFile));
+        } catch (FileNotFoundException e) {
+            System.out.println("option"+".query" + " is not found");
+        }
+
+        try {
+            while ((line = readerQ.readLine())!=null) {
+                this.queryInput = line.toString();
+            }
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        try {
+            readerQ.close();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 }

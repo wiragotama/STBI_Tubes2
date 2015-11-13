@@ -19,8 +19,8 @@ public class mainTest {
     {
         //singleton option variable, refer to option to change the default configuration
         Option ops = new Option();
-        //ops.print();
-        ops.save("savedFiles/option");
+        ops.print();
+        ops.save();
 
         //cara load document, bisa juga pathnya di-supply dari options
         Documents docs = new Documents("test_collections/cisi/cisi.all");
@@ -54,14 +54,16 @@ public class mainTest {
         System.out.println("performing query");
         DocumentRanker dr = new DocumentRanker(vsm, tokDocs, r, q, ops);
         //1 query aja
-        //Query qu = new Query(Arrays.asList("program")); query input dr user
-        /*List<DocumentRank> result = dr.queryTask(q.getQuery(0));
-        for (int i=0; i<result.size(); i++)
+        Query qu = new Query(Arrays.asList(ops.queryInput)); //query input dr user
+        qu.preprocess(ops);
+        List<DocumentRank> result = dr.queryTask(qu);
+        for (int i=0; i<5; i++)
         {
             System.out.println(result.get(i).getDocNum()+1+" "+result.get(i).getSC());
-        }*/
+            System.out.println(docs.getDocument(result.get(i).getDocNum()));
+        }
 
         //semua query (experiment)
-        dr.queriesTask();
+        //dr.queriesTask();
     }
 }

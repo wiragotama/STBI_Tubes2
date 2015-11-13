@@ -2,6 +2,8 @@ package Model;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Option.Option;
 import Preprocessor.*;
 
 /**
@@ -119,5 +121,26 @@ public class Query {
     {
         this.query.clear();
         this.weight.clear();
+    }
+
+    /**
+     * Preprocess
+     * @param option
+     */
+    public void preprocess(Option option)
+    {
+        List<String> tokens = Preprocessor.tokenize(this.query.get(0), option.stopwords, option.stopwordsRemoval);
+        if (option.documentStem)
+            Preprocessor.stem(tokens);
+
+        Query n = new Query(tokens);
+        this.query = new ArrayList<String>();
+        this.weight = new ArrayList<Double>();
+        for (int i=0; i<n.getQuery().size(); i++) {
+            this.query.add(n.getQuery().get(i));
+        }
+        for (int i=0; i<n.getWeight().size(); i++) {
+            this.weight.add(n.getWeight().get(i));
+        }
     }
 }

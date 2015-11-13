@@ -1,1 +1,1 @@
-true stopwords/custom.stopword true false false 1 true false false 1 0 0 true false false information retrieval test_collections/adi/adi.all test_collections/adi/query.text test_collections/adi/qrels/text
+true stopwords/custom.stopword true false false 1 true false false 1 0 0 true false false test_collections/adi/adi.all test_collections/adi/query.text test_collections/adi/qrels/text
