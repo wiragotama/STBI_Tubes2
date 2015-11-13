@@ -25,9 +25,9 @@ public class mainTest {
         //klo read dr file
         ops.relevanceFeedbackAlgo = 1;
         ops.isRelevanceFeedback = false;
-        ops.isQueryExpansion = false;
+        ops.isQueryExpansion = true;
         ops.secondRetrievalDocs = 0;
-        ops.topN = 5;
+        ops.topN = 20;
 
         //cara load document, bisa juga pathnya di-supply dari options
         Documents docs = new Documents("test_collections/cisi/cisi.all");

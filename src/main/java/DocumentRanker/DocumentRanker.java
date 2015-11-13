@@ -285,19 +285,23 @@ public class DocumentRanker {
 
             //perhitungan query weighting baru, iterate per term dari query, tanpa query expansion
             if (option.isQueryExpansion) {
-                //term di query diubah pake semua term di vsm
-                int querySize = q.getQuery().size();
-                List<String> newQuery = new ArrayList<String>();
-                newQuery.addAll(vsm.getTerms());
-                q.setQuery(newQuery);
-                queries.setQuery(qAt, q);
+                /* Dari slide-query expansion: query awal ditambahkan sejumlah kata yang
+                berasal dari dokumen-dokumen yang relevan */
 
-                q.addWeight(vsm.getTerms().size()-querySize);
-                queries.addWeight(qAt, vsm.getTerms().size()-querySize);
+                int querySize = q.getQuery().size();
+                Set<String> expansionTerms = new TreeSet<String>(); //karena hal ini, jadinya gk terururt
+                int relevantDocs = relevantDocsIdx.size();
+                for (int doc=0; doc<relevantDocs; doc++) {
+                    expansionTerms.addAll(tokenizedDocuments.get(doc).getText());
+                }
+
+                q.addQueryTerms(expansionTerms); //lgsg ditambahin weight juga sebanyak expansion terms dengan nilai 0.0
+                queries.setQuery(qAt, q);
             }
             int N = q.getQuery().size();
             int[] queryTermIdx = new int[N];
-            for (int i=0; i<q.getQuery().size(); i++) {
+            System.out.println("Term Size "+N);
+            for (int i=0; i<N; i++) {
                 queryTermIdx[i] = vsm.indexOfTerms(q.getQuery().get(i));
             }
             for (int term = 0; term < N; term++) {

@@ -1,7 +1,9 @@
 package Model;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 import Option.Option;
 import Preprocessor.*;
@@ -49,6 +51,17 @@ public class Query {
             this.query.add(q.query.get(i));
         for (int i=0; i<q.weight.size(); i++)
             this.weight.add(q.weight.get(i));
+    }
+
+    /**
+     * Add new term to query
+     * @param collection
+     */
+    public void addQueryTerms(Set<String> collection) {
+        for (String term: collection) {
+            this.query.add(term);
+            this.weight.add(0.0);
+        }
     }
 
     /**
