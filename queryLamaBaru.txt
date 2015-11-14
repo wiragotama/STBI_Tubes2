@@ -1,0 +1,4 @@
+[information, retrieval]
+[1.0, 1.0]
+[information, retrieval]
+[3.0, 6.0]

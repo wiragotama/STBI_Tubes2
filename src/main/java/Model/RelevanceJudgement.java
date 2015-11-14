@@ -24,6 +24,11 @@ public class RelevanceJudgement {
         load(judgementPath, querySize);
     }
 
+    public RelevanceJudgement()
+    {
+        relevanceJudgements = new ArrayList<Set<Integer>>();
+    }
+
     /**
      * load from file
      * @param judgementPath

@@ -26,6 +26,11 @@ public class Queries {
         load(queryPath);
     }
 
+    public Queries()
+    {
+        queries = new HashMap<Integer, Query>();
+    }
+
     /**
      * load queries from file (raw)
      * @param queryPath
@@ -117,6 +122,7 @@ public class Queries {
         for(int i=0; i<queries.size(); i++)
         {
             System.out.printf("Query[%d]: %s\n", i, queries.get(i).getQuery().toString());
+            System.out.printf("Query[%d]: %s\n", i, queries.get(i).getUniqueTerms().toString());
         }
     }
 

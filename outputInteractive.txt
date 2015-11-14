@@ -1,0 +1,19 @@
+5
+0.0
+0.0
+0.0
+12
+5.0
+the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
+21
+5.0
+science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
+43
+5.0
+the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
+1
+4.0
+the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and output. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
+3
+4.0
+an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .

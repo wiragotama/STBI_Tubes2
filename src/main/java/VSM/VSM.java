@@ -269,11 +269,12 @@ public class VSM {
     {
         //kita bobotin query
         double maxTF = 0.0;
-        int qsize = query.getQuery().size();
+        int qsize = query.getUniqueTerms().size();
+        query.resetWeight();
         double[] weightQ = new double[qsize];
 
         int i = 0;
-        for(String term : query.getQuery())
+        for(String term : query.getUniqueTerms())
         {
             //TF Part
             double weight = 0.0;
@@ -321,7 +322,9 @@ public class VSM {
             for (int j=0; j<qsize; j++) {
                 cosineLength += Math.pow(query.getWeightAt(j), 2.0);
             }
-            cosineLength = Math.sqrt(cosineLength);
+            if (cosineLength==0)
+                cosineLength = 1;
+            else cosineLength = Math.sqrt(cosineLength);
             for (int j=0; j<qsize; j++) {
                 weightQ[j] = weightQ[j]/cosineLength;
             }

@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="STBI">
+    <output-path>$PROJECT_DIR$/out/artifacts/STBI</output-path>
+    <root id="archive" name="STBI.jar" />
+  </artifact>
+</component>

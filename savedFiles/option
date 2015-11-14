@@ -1,1 +1,1 @@
-true stopwords/custom.stopword true false false 1 true false false 1 -1 false false 0 true false false test_collections/adi/adi.all test_collections/adi/query.text test_collections/adi/qrels/text 0
+true uploads/custom.stopword false false false 1 true false false 1 0 true false 0 false false false uploads/adi.all uploads/query.text uploads/qrels.text 5 10 false

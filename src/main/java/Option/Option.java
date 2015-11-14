@@ -45,6 +45,8 @@ public class Option {
     public static final String filePath = "savedFiles/option";
     public String queryInput; //klo gk experiment, berarti ada query
     public int topN;
+    public int showN;
+    public boolean isSecondRetrieval;
 
     /**
      * Default Constructor
@@ -75,9 +77,11 @@ public class Option {
         this.isFeedbackInteractive = false;
         this.documentPath = "test_collections/adi/adi.all";
         this.queryPath = "test_collections/adi/query.text";
-        this.relevanceJudgmentPath = "test_collections/adi/qrels/text";
+        this.relevanceJudgmentPath = "test_collections/adi/qrels.text";
         this.queryInput = "information retrieval";
         this.topN = 0;
+        this.showN = 10;
+        isSecondRetrieval = false;
     }
 
     /**
@@ -106,7 +110,6 @@ public class Option {
                 String split[] = line.split(" ");
                 this.stopwordsRemoval = Boolean.valueOf(split[0]);
                 stopwordsPath = String.valueOf(split[1]);
-                stopwordsPath = String.valueOf(split[1]);
 
                 this.documentStem = Boolean.valueOf(split[2]);
                 this.documentNormalization = Boolean.valueOf(split[3]);
@@ -130,6 +133,8 @@ public class Option {
                 queryPath = String.valueOf(split[18]);
                 relevanceJudgmentPath = String.valueOf(split[19]);
                 this.topN = Integer.valueOf(split[20]);
+                this.showN = Integer.valueOf(split[21]);
+                isSecondRetrieval = Boolean.valueOf(split[22]);
             }
 
             while ((line = readerQ.readLine())!=null) {
@@ -162,7 +167,7 @@ public class Option {
                     +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedbackAlgo +" "+this.isRelevanceFeedback
                     +" "+this.isQueryExpansion+" "+this.secondRetrievalDocs
                     +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                    +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN;
+                    +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN+" "+showN+" "+isSecondRetrieval;
             writer.println(out);
             writer.close();
 
@@ -188,105 +193,10 @@ public class Option {
                 +" " +this.queryUseIDF +" "+this.queryTFOption +" "+this.relevanceFeedbackAlgo +" "+this.isRelevanceFeedback
                 +" "+this.isQueryExpansion+" "+this.secondRetrievalDocs
                 +" "+isExperiment +" "+isNormalInteractive +" "+isFeedbackInteractive
-                +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN;
+                +" "+documentPath +" "+queryPath +" "+relevanceJudgmentPath+" "+topN+" "+showN+" "+isSecondRetrieval;
         System.out.println("Option ["+out+"]");
         System.out.println("Query ["+queryInput+"]");
     }
-
-    /**
-     * Read Option for TF, IDF, Normalization, Stemming, and Experiment / Interactive from GUI, special for experiment (tubes 1)
-     */
-    /*private void readOption() {
-        isExperiment = true;
-        String currentLine;
-        Scanner scanner = new Scanner(System.in);
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("experiment"))
-            isExperiment = true;
-        else
-            isExperiment = false;
-
-        if (currentLine.equalsIgnoreCase("normalInteractive"))
-            isNormalInteractive = true;
-        else isNormalInteractive = false;
-
-        if (currentLine.equalsIgnoreCase("feedbackInteractive"))
-            isFeedbackInteractive = true;
-        else isFeedbackInteractive = false;
-
-        this.documentPath = scanner.nextLine();
-        this.queryPath = scanner.nextLine();
-        this.relevanceJudgmentPath = scanner.nextLine();
-        this.stopwordsPath = scanner.nextLine();
-
-        //Document TF
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("notf"))
-            this.documentTFOption = 0;
-        else if (currentLine.equalsIgnoreCase("rawtf"))
-            this.documentTFOption = 1;
-        else if (currentLine.equalsIgnoreCase("binarytf"))
-            this.documentTFOption = 2;
-        else if (currentLine.equalsIgnoreCase("augmentedtf"))
-            this.documentTFOption = 3;
-        else if (currentLine.equalsIgnoreCase("logarithmictf"))
-            this.documentTFOption = 4;
-
-        //Document IDF
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("noidf"))
-            this.documentUseIDF = false;
-        else if (currentLine.equalsIgnoreCase("usingidf"))
-            this.documentUseIDF = true;
-
-        //Document normalize
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("nonormalization"))
-            this.documentNormalization = false;
-        else if (currentLine.equalsIgnoreCase("usingnormalization"))
-            this.documentNormalization = true;
-
-        //Document Stemming
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("nostemming"))
-            this.documentStem = false;
-        else if (currentLine.equalsIgnoreCase("usingstemming"))
-            this.documentStem = true;
-
-        //Query TF
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("notf"))
-            this.queryTFOption = 0;
-        else if (currentLine.equalsIgnoreCase("rawtf"))
-            this.queryTFOption = 1;
-        else if (currentLine.equalsIgnoreCase("binarytf"))
-            this.queryTFOption = 2;
-        else if (currentLine.equalsIgnoreCase("augmentedtf"))
-            this.queryTFOption = 3;
-        else if (currentLine.equalsIgnoreCase("logarithmictf"))
-            this.queryTFOption = 4;
-
-        //Query IDF
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("noidf"))
-            this.queryUseIDF = false;
-        else if (currentLine.equalsIgnoreCase("usingidf"))
-            this.queryUseIDF = true;
-
-        //Query normalize
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("nonormalization"))
-            this.queryNormalization = false;
-        else if (currentLine.equalsIgnoreCase("usingnormalization"))
-            this.queryNormalization = true;
-
-        //Query Stemming
-        currentLine = scanner.nextLine();
-        if (currentLine.equalsIgnoreCase("nostemming"))
-            this.queryStem = false;
-        else if (currentLine.equalsIgnoreCase("usingstemming"))
-            this.queryStem = true;
-    }*/
 
     /**
      * Read Query from File
