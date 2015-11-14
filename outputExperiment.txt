@@ -1,1190 +1,448 @@
-10
-0.2
-0.6666666666666666
-0.20634920634920637
-69
-1.15540198815869
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-27
-0.9293434230285825
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-46
-0.5761248886452712
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-47
-0.4682404621390168
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-37
-0.44555828427182315
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-71
-0.42452595119305553
-searchers want facts not folios retrieve data not documents the needle is dull sharpen it with automation . w. h. waldo storage of laboratory data available through appropriate questions to a computer has been successfully tested by monsanto as the optimum replacement for the uncommunicative classical communications system of report writing by hand, storage in file drawers, and retrieval by key words . the preparation of review articles is theoretically more desirable, but apparently not practical .
-17
-0.40502472608209983
-document recovery r. l. bircg the naming of journals and organizations : implications for names are chosen for technical journals for societies often incorporating factors which needlessly complicate filing and recovery . changes of name also appear to often ignore the effect on commonplace information retrieval procedures . factors considered include ease of memory retention, compatibility of wording and of layout of title pages with filing systems used in offices, libraries, and bibliographies .
-25
-0.40065611144119395
-the reduction in bulk resulting from the typesetting of documents in modern composition systems f. r. kraft a 43-page typewritten article occupied only 22 pages when automatically made-up by a computer and produced by a linofilm phototypesetter . 2. 6 pages of lists photo-offset directly from computer print out, or 3 pages of tables produced in like manner, could fit on only one typeset page without reduction in readability .
-75
-0.36867411780865705
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-61
-0.28238558934002017
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-10
-0.2
-1.0
-0.29166666666666663
-69
-0.5077768740247819
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-68
-0.45066701687622307
-the relation of requests to concepts of file organization and search . r. m. shoffner a characterization of the relation of requests to file organization and search is presented . the requirement for exact-match or near-match response and the relation of processing effort to request predictability determine file organization . desired results and allowable processing effort determine the search rules .
-71
-0.440122106323034
-searchers want facts not folios retrieve data not documents the needle is dull sharpen it with automation . w. h. waldo storage of laboratory data available through appropriate questions to a computer has been successfully tested by monsanto as the optimum replacement for the uncommunicative classical communications system of report writing by hand, storage in file drawers, and retrieval by key words . the preparation of review articles is theoretically more desirable, but apparently not practical .
-2
-0.3850506587161322
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-70
-0.3756303038015684
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-27
-0.36060010463793357
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-53
-0.34234962663663543
-documents and information exchange . b. e. shachtman the importance of document and information exchange is pointed out with an indication of its status and reference to some of the major exchange institutions suggestions for the future are decentralization of, national responsibility for collecting, and the establishment of a national exchange information and advisory service.
-12
-0.3317935590429766
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-64
-0.3316503480470651
-paragraph analysis - a novel technique for retrieval of portions of documents . s. n. jacobson a significant similarity between the retrieval of entire documents and the retrieval of selected portions of documents is described . based on this similarity, procedures for segmenting documents into independently retrievable segments and assigning index terms to these segments are presented .
-41
-0.3113961215159643
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-10
-0.4
-1.0
-0.7095238095238094
-60
-0.8903412108289241
-toward a definition of information science . l. b. heilprin an operational definition is attempted for the new composite discipline /information science/. the approach is based on the physics and psychology of messages. to include all steps in the /information transfer chain/ the definition must remain general . a probable limit of specificity is suggested in the /final/ definition offered .
-21
-0.7963419290461546
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-45
-0.7736171447242436
-graduate training in information science : definitions and developments at the georgia institute of technology . d. crosland the graduate degree program in information science at georgia tech is described . areas of specialization within the curriculum and definitions of terms are given .
-10
-0.6114709545370758
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-43
-0.5030090886961771
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-46
-0.32043893468403095
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-3
-0.2847616964060804
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-56
-0.26689461732275627
-the use of punched-tape typewriters and computers in the centralized information processing at the usaec division of technical information extension . d. d. davis a brief description is given of some information services at the division of technical information extension which are by-products of work already being performed . these services are made possible by the use of punched tape typewriters and a computer .
-67
-0.25677292213093306
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-40
-0.2550392939064889
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-10
-0.1
-0.5
-0.5
-29
-1.2460821889510243
-a statistical image recognition function related to integral geometry and its instrumentation in a statistical transformation generator . g. tenery the concept of using a statistical image transformation as a key step in image recognition has been studied by computer simulation, analytical studies relating the transformation to classical integral geometry, and construction of a prototype analog statistical image transformation generator .
-41
-0.7801326115849083
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-75
-0.7572835326704597
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-70
-0.6671650081725597
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-15
-0.5145703396583332
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-77
-0.5110116277047885
-adaptive and learning recognition machine to produce codes, or punch cards in response to spoken words . a. lesti cynthia iii is a scientific demonstrator of machine learning techniques and systems as applied to recognition of live speech regardless of speaker, and other forms of highly statistical signals . besides demonstrating the recognition of any phoneme, accents, and speaker, the machine has recognized seismic signals which cannot be separated by any other known method .
-25
-0.48382352872512724
-the reduction in bulk resulting from the typesetting of documents in modern composition systems f. r. kraft a 43-page typewritten article occupied only 22 pages when automatically made-up by a computer and produced by a linofilm phototypesetter . 2. 6 pages of lists photo-offset directly from computer print out, or 3 pages of tables produced in like manner, could fit on only one typeset page without reduction in readability .
-7
-0.4716908422724422
-a computer oriented photo-composition system for star the system for producing nasa's scientific and technical aerospace reports, an example of computer oriented automatic photo copy setting, produces copy at three times the speed of manual operation . the discussion is limited to a punched paper tape application and does not cover aspects of a more sophisticated computer system.
-2
-0.3958296728112359
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-44
-0.3900915379473045
-the use of a cathode ray tube display console for editing textual information . l. f. buckland experiments are being performed to test the utility of a computer-connected cathode ray tube display in the man-machine processes of text editing and indexing, where a final tostringoutput must be in machine as well as visual form . results so far show that editing can be performed faster than with a typewriter console, and that the immediate display response is very useful when several sequential editing steps are needed in a local area of text .
-10
-0.3
-1.0
-0.611111111111111
-21
-0.8354090124988858
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-27
-0.780710368613733
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-37
-0.6571309042960988
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-3
-0.6446828570805299
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-40
-0.5826528885304187
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-12
-0.5202871964589622
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-47
-0.5028264659281863
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-5
-0.49656485917536075
-feasibility criteria for establishing specialized information centers some guidelines are presented for estimating the practicability of establishing specialized information centers . to arrive at a valid justification for a new service, criteria will need to be developed in each of four areas : clientele to be served; information to be handled; provision of adequate funding; and, relationships to existing services .
-72
-0.47348046195426025
-information specialist training programs - student support graduate prospects . t. c. hines the need for appropriate salary incentives and subsidies during training is found to be an important factor in attracting students to the study of information science . it is hoped that graduate stipends and salary levels can remedy the information specialist shortage .
-51
-0.44471514209727686
-some observations on mechanization of library processes . e. m. mccormick the mechanization of library processes is in large part dependent on proper communication between librarians and computer experts . an appreciation of the problems of libraries as well as the potentialities of computers will result in suitable data processing and control systems .
-10
+0
 0.0
 0.0
 0.0
-73
-0.7681276171663929
-microfilm and hard copy transmission from document retrieval centers . g. f. stafford an all purpose communication system is described which has the ability to transmit documents both in hard copy format and in microfilms . microfilms can be produced by high speed direct readout from a computer with a scan converter and facsimile recorder . the facsimile printout may be graphic or alphanumeric . all communication methods, including voice communication may be channeled into the system .
-51
-0.6500051622917377
-some observations on mechanization of library processes . e. m. mccormick the mechanization of library processes is in large part dependent on proper communication between librarians and computer experts . an appreciation of the problems of libraries as well as the potentialities of computers will result in suitable data processing and control systems .
-46
-0.5390105810782655
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-28
-0.48012556556555985
-the role of thesauri in the convergence of word and concept indexing . s. herner the increase in indexing vocabularies guiding the use of terms and indicating their relationship has resulted in a convergence between word and concept indexing. vocabularies have emerged as devices for converting from words to concepts . the intellectual role of the indexer has shifted to the vocabulary designer . current manifestations of this shift are discussed .
-9
-0.4335039638131106
-analysis of the role of the computer in the reproduction and distribution of scientific papers j. h. kuney the american chemical society has begun an analysis of the role of the computer in related aspects of the reproduction, distribution, and retrieval of scientific information . initial work will attempt to solve problems of photocomposition via computer .
-71
-0.42272893213361856
-searchers want facts not folios retrieve data not documents the needle is dull sharpen it with automation . w. h. waldo storage of laboratory data available through appropriate questions to a computer has been successfully tested by monsanto as the optimum replacement for the uncommunicative classical communications system of report writing by hand, storage in file drawers, and retrieval by key words . the preparation of review articles is theoretically more desirable, but apparently not practical .
-74
-0.4181174555880493
-the use of broadcast television for communication among scientists and engineers . j. k. mackensie the science and engineering television journal is an experiment in the use of broadcast television for inter-professional communication . coordinated by the aaas, under a nsf grant, 30 one-hour videotapes have been done in cooperation with 12 national societies . evaluation indicates that the project is useful and a proposal is being considered for a second series with videotape distribution expanded on a national basis .
-76
-0.3619925769432183
-some human elements in the handling of technical information reflections of an information scientist . g. e. m. wohlauer the characteristics of professional information scientists are discussed with emphasis on the human factors . ideal working conditions and the required background of knowledge for this type of personnel are given .
-81
-0.30052758909299815
-the automated multilevel encyclopedia as a new mode of scientific communication . h. g. bohnert m. kochen the computer revolution encourages reexamination of the encyclopedia concept . no longer confined to book form, it can be enlarged to embrace several levels of condensation from a library-sized store, with updating, text preparation, access, and distribution handled differently at different levels, partially replacing, at base level, the journal system .
-56
-0.2568245574335523
-the use of punched-tape typewriters and computers in the centralized information processing at the usaec division of technical information extension . d. d. davis a brief description is given of some information services at the division of technical information extension which are by-products of work already being performed . these services are made possible by the use of punched tape typewriters and a computer .
-10
-0.2
-0.5
-0.13333333333333333
-15
-0.6496540443472885
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-70
-0.6481934569141192
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-16
-0.6189699860054946
-programing and coding techniques used in medlars this paper describes some of the programing logic of the medlars system . the demand search module retrieves citations from the citation file initially on the basis of /significant/ elements, i. e ., elements having the lowest frequency of usage which must be present for a citation to satisfy the request . the resultant file which is reduced in size is then passed against a decision table for the final selection of citations . the report generator module formats the citations of printer paper, cards, or photograph film . the tostringoutput processing module formats index medicus and recurring bibliographies, which are automatically updated by the system . the final tostringoutput is processed by the graphic arts composing equipment for later printing .
-1
-0.6057413693758057
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-19
-0.5945975682038717
-recording text information in machine form at the time of primary publication l. f. buckland it is proposed to develop a primary publication procedure which in addition to publishing the journal, records data needed for secondary publishing, and storage and retrieval purposes . the limitations of typography and the requirement for a recording procedure which identifies content or item function are stated . the problems of complex symbol representation are posed .
-40
-0.5824122911061501
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-75
-0.5500297905355152
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-51
-0.5464768774614497
-some observations on mechanization of library processes . e. m. mccormick the mechanization of library processes is in large part dependent on proper communication between librarians and computer experts . an appreciation of the problems of libraries as well as the potentialities of computers will result in suitable data processing and control systems .
-56
-0.5434083792388773
-the use of punched-tape typewriters and computers in the centralized information processing at the usaec division of technical information extension . d. d. davis a brief description is given of some information services at the division of technical information extension which are by-products of work already being performed . these services are made possible by the use of punched tape typewriters and a computer .
-11
-0.5355851626926524
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-10
-0.1
-1.0
-1.0
-61
-0.622132956223122
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-43
-0.5853542137426171
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-67
-0.48779879170507967
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-47
-0.4798514275268117
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-21
-0.4700969961230077
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-46
-0.44993685563270414
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-45
-0.4393809558912444
-graduate training in information science : definitions and developments at the georgia institute of technology . d. crosland the graduate degree program in information science at georgia tech is described . areas of specialization within the curriculum and definitions of terms are given .
-10
-0.42092906034850597
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-40
-0.39787479841424345
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-12
-0.3554314160573625
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-10
+0
 0.0
 0.0
 0.0
-23
-0.5505429394217665
-a facet analysis system . r. s. hooper experience in setting up an information system for an environmental engineering department is described . a facet analysis vocabulary has proved satisfactory . the construction of the facet analysis vocabulary is explained and the relevancy of responses to requests is evaluated .
-70
-0.502582190786893
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-27
-0.45008375119436983
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-79
-0.4012844711819276
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-9
-0.40099737871115715
-analysis of the role of the computer in the reproduction and distribution of scientific papers j. h. kuney the american chemical society has begun an analysis of the role of the computer in related aspects of the reproduction, distribution, and retrieval of scientific information . initial work will attempt to solve problems of photocomposition via computer .
-75
-0.39626812163994696
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-37
-0.35250772854067064
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-41
-0.331351833160742
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-71
-0.33090821091770484
-searchers want facts not folios retrieve data not documents the needle is dull sharpen it with automation . w. h. waldo storage of laboratory data available through appropriate questions to a computer has been successfully tested by monsanto as the optimum replacement for the uncommunicative classical communications system of report writing by hand, storage in file drawers, and retrieval by key words . the preparation of review articles is theoretically more desirable, but apparently not practical .
-64
-0.3140481709028512
-paragraph analysis - a novel technique for retrieval of portions of documents . s. n. jacobson a significant similarity between the retrieval of entire documents and the retrieval of selected portions of documents is described . based on this similarity, procedures for segmenting documents into independently retrievable segments and assigning index terms to these segments are presented .
-10
-0.3
-0.6
-0.31
-50
-0.5818363664355586
-english-like systems of mathematical logic for content retrieval . h. g. bohnert t. j. watson an english-like system of mathematical logic is a formally defined set of sentences whose vocabulary and grammar resemble english, with an algorithm which translates any sentence of the set into a notation for mathematical logic . objectives, accomplishments, and problems in the construction of such languages in project logos are discussed .
-67
-0.518979747102231
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-8
-0.5024466923006218
-a program for dissemination of specific data on materials . h. t. johnson an indexing vocabulary of descriptors is used to index and abstract a large body of specific technical literature . summary data sheets of the abstracted material are made available as well as an inexpensive literature index .
-6
-0.49021952089471765
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-40
-0.4454191997780157
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-76
-0.4120771121922166
-some human elements in the handling of technical information reflections of an information scientist . g. e. m. wohlauer the characteristics of professional information scientists are discussed with emphasis on the human factors . ideal working conditions and the required background of knowledge for this type of personnel are given .
-22
-0.3352296668767024
-the rapid selector as currently used for information search and replica copy retrieval t. o. bagg there are two rapid selector installations . one is at the national bureau of standards being used to study effectiveness of indexing and coding methods for machine retrieval . the other is at buships being used for handling of specifications, instruction manuals, engineering reports, etc .
-2
-0.29119542212146593
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-62
-0.2850489228171859
-a mechanized information storage and retrieval system with the option for manual access . r. h. wheater an information storage and retrieval system capable of both mechanized and manual access at the option of the user is described . each reference is a stylized abstract . the keywords are assigned role indicators and a permuted index is available . the system achieves mechanical flexibility and both mechanical and manual access on a low budget .
-39
-0.27829132774238985
-research on a linear network model and analog device for associative retrieval . p. e. jones in our investigations at arthur d. little, inc ., we have pursued the applicability of linear network analysis to the retrieval of information from a given body of data . this point of view provides a framework which encompasses many of the parameters of the retrieval process and enables analytic exploration of the model .
-10
+0
 0.0
 0.0
 0.0
-21
-0.6254087575993801
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-27
-0.5308432465224359
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-40
-0.4116374798072672
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-3
-0.3814630381607153
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-9
-0.3431615747962792
-analysis of the role of the computer in the reproduction and distribution of scientific papers j. h. kuney the american chemical society has begun an analysis of the role of the computer in related aspects of the reproduction, distribution, and retrieval of scientific information . initial work will attempt to solve problems of photocomposition via computer .
-41
-0.33349192082446666
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-80
-0.33004672917428685
-design of an experiment for evaluation of the citation index as a reference aid . b. lipetz objective evaluation of a documentation technique may be accomplished by introducing it in a limited test area and studying information user behavior in the test area versus control areas . such an experiment is being devised to test the merit of the citation index as a reference aid for physicists .
-37
-0.29919532556046907
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-46
-0.2627959217982741
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-39
-0.2485415445777842
-research on a linear network model and analog device for associative retrieval . p. e. jones in our investigations at arthur d. little, inc ., we have pursued the applicability of linear network analysis to the retrieval of information from a given body of data . this point of view provides a framework which encompasses many of the parameters of the retrieval process and enables analytic exploration of the model .
-10
-0.3
-0.6
-0.475
-9
-0.7259121801735677
-analysis of the role of the computer in the reproduction and distribution of scientific papers j. h. kuney the american chemical society has begun an analysis of the role of the computer in related aspects of the reproduction, distribution, and retrieval of scientific information . initial work will attempt to solve problems of photocomposition via computer .
-4
-0.5914941447227183
-role of /letters/ journals in primary distribution of information g. l. trigg /letters/ journals, which developed out of the /letters to the editor/ section of research journals, provide rapid dissemination of results which are judged likely to have marked effects on the work of a substantial number of people . this is accomplished by keeping the communications brief, reviewing them promptly, and making use of rapid publication methods .
-40
-0.4599223805732632
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-75
-0.4274501415587697
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-81
-0.3843799762941514
-the automated multilevel encyclopedia as a new mode of scientific communication . h. g. bohnert m. kochen the computer revolution encourages reexamination of the encyclopedia concept . no longer confined to book form, it can be enlarged to embrace several levels of condensation from a library-sized store, with updating, text preparation, access, and distribution handled differently at different levels, partially replacing, at base level, the journal system .
-73
-0.359879854674966
-microfilm and hard copy transmission from document retrieval centers . g. f. stafford an all purpose communication system is described which has the ability to transmit documents both in hard copy format and in microfilms . microfilms can be produced by high speed direct readout from a computer with a scan converter and facsimile recorder . the facsimile printout may be graphic or alphanumeric . all communication methods, including voice communication may be channeled into the system .
-19
-0.319587766972146
-recording text information in machine form at the time of primary publication l. f. buckland it is proposed to develop a primary publication procedure which in addition to publishing the journal, records data needed for secondary publishing, and storage and retrieval purposes . the limitations of typography and the requirement for a recording procedure which identifies content or item function are stated . the problems of complex symbol representation are posed .
-42
-0.3148286340180842
-new photon composing machine will set type from the tostringoutput of a computer . r. g. crockett w. w. youden /zip/ is a printout device that will produce justified text of typographical quality on film or paper from the off-line operation of a computer . character and command codes are read at high speed from magnetic tape; processed in a control console, and then are used to initiate the projection of characters onto film .
-13
-0.29833042451711367
-recent activities in foreign exchanges . i. c. o brien the availability of foreign publications by exchange with foreign countries is described . international regulations governing the exchange of publications among official agencies are given . many organizations engage in the exchange of information and scientific data .
-58
-0.28921005734143745
-producing indexing aids such as a dictionary or thesaurus from a single punched card deck . j. f. tinker r. b. smith by use of relatively simple equipment, such as a sorter, and tabulator or document writer, a dictionary or thesaurus can be prepared . the format of the thesaurus can be designed to display a variety of relationships between indexing terms . the format of the thesaurus can be varied without changing its intellectual content to suit the habits and viewpoints of the user . corrections, additions, and reverse entries to these indexing and retrieval aids can be made simply and easily . the deck can be used in conjunction with the listomatic method or computer-controlled photo-composing devices to produce high-quality print-outs .
-10
-0.4
-0.6666666666666666
-0.29365079365079366
-5
-0.7574417743585169
-feasibility criteria for establishing specialized information centers some guidelines are presented for estimating the practicability of establishing specialized information centers . to arrive at a valid justification for a new service, criteria will need to be developed in each of four areas : clientele to be served; information to be handled; provision of adequate funding; and, relationships to existing services .
-40
-0.6742283386392833
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-27
-0.5768985666122796
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-37
-0.48058377238241984
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-69
-0.38302962299347576
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-6
-0.3820595070966402
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-80
-0.37937143247326266
-design of an experiment for evaluation of the citation index as a reference aid . b. lipetz objective evaluation of a documentation technique may be accomplished by introducing it in a limited test area and studying information user behavior in the test area versus control areas . such an experiment is being devised to test the merit of the citation index as a reference aid for physicists .
-1
-0.33190572870602364
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-45
-0.30457072015083103
-graduate training in information science : definitions and developments at the georgia institute of technology . d. crosland the graduate degree program in information science at georgia tech is described . areas of specialization within the curriculum and definitions of terms are given .
-4
-0.2811235704874075
-role of /letters/ journals in primary distribution of information g. l. trigg /letters/ journals, which developed out of the /letters to the editor/ section of research journals, provide rapid dissemination of results which are judged likely to have marked effects on the work of a substantial number of people . this is accomplished by keeping the communications brief, reviewing them promptly, and making use of rapid publication methods .
-10
+0
 0.0
 0.0
 0.0
-36
-0.3164388320013184
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-61
-0.2995339200156434
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-70
-0.2729879989549218
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-57
-0.24527138446346244
-compilation and computer updating of a medical sciences thesaurus . l. l. mcgee w. j. holliman g. d. adams a. z. loren a /medical and health related sciences thesaurus/ has been compiled as an indexing guide and entered on computer for updating and periodic print-outs . the first printed edition of the thesaurus contains approximately 12,200 biomedical terms, of which 6,700 are main headings; 2,200 subheadings; 2,300 /see/ references; and 1,000 instructional items .
-69
-0.24480294331577884
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-2
-0.21391506673655902
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-27
-0.17451362071818988
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-41
-0.1536312177972945
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-15
-0.15095741572339097
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-53
-0.14840965226485323
-documents and information exchange . b. e. shachtman the importance of document and information exchange is pointed out with an indication of its status and reference to some of the major exchange institutions suggestions for the future are decentralization of, national responsibility for collecting, and the establishment of a national exchange information and advisory service.
-10
-0.3
-0.5
-0.1597222222222222
-47
-0.9748231484372261
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-40
-0.5401546160658194
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-51
-0.5363434187889558
-some observations on mechanization of library processes . e. m. mccormick the mechanization of library processes is in large part dependent on proper communication between librarians and computer experts . an appreciation of the problems of libraries as well as the potentialities of computers will result in suitable data processing and control systems .
-32
-0.5208681074430758
-document reproduction from microfilm is improved in speed  and cost by procedure making six copies per shot . w. h. pupp the document microfilming and copying procedure described here demonstrates a practical system for increasing the speed of producing hard copies by sixfold and reducing the cost of copy to about one-quarter normal . the procedure can improve the effectiveness of moderate-sized is and r systems .
-43
-0.49872967230276194
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-11
-0.47679804515186164
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-1
-0.463098293830839
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-6
-0.38871027888842186
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-46
-0.3882802110225998
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-21
-0.35587422220102877
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-10
-0.1
-0.3333333333333333
-0.1111111111111111
-27
-0.7055851819125768
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-37
-0.5137802907904885
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-18
-0.4830309817220198
-state-of-the-art : remote interrogation of stored documentary material h. ohlman remote interrogation is defined . remote manipulation techniques for material in human readable form are compared with those for machine-manipulatable media . analog and digital transmission means, the hardcopy dilemma, and interrogation modes are discussed, and the input problem is highlighted .
-79
-0.46368175985761423
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-17
-0.33756187959653644
-document recovery r. l. bircg the naming of journals and organizations : implications for names are chosen for technical journals for societies often incorporating factors which needlessly complicate filing and recovery . changes of name also appear to often ignore the effect on commonplace information retrieval procedures . factors considered include ease of memory retention, compatibility of wording and of layout of title pages with filing systems used in offices, libraries, and bibliographies .
-22
-0.3352296668767024
-the rapid selector as currently used for information search and replica copy retrieval t. o. bagg there are two rapid selector installations . one is at the national bureau of standards being used to study effectiveness of indexing and coding methods for machine retrieval . the other is at buships being used for handling of specifications, instruction manuals, engineering reports, etc .
-40
-0.3320232995424591
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-53
-0.293553402384231
-documents and information exchange . b. e. shachtman the importance of document and information exchange is pointed out with an indication of its status and reference to some of the major exchange institutions suggestions for the future are decentralization of, national responsibility for collecting, and the establishment of a national exchange information and advisory service.
-69
-0.25780805183841154
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-62
-0.25441997621512397
-a mechanized information storage and retrieval system with the option for manual access . r. h. wheater an information storage and retrieval system capable of both mechanized and manual access at the option of the user is described . each reference is a stylized abstract . the keywords are assigned role indicators and a permuted index is available . the system achieves mechanical flexibility and both mechanical and manual access on a low budget .
-10
-0.1
-0.5
-0.07142857142857142
-35
-0.45159489573863637
-density of library book use in biology and medicine . f. g. kilgour use quotients were obtained by dividing numbers of book volumes published in 1951-62 and circulated in one year by volumes in the library's corresponding subject classes . books of the last dozen years experienced six times as concentrated use as the entire book and journal collection.
-79
-0.4465105399178164
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-42
-0.41405589524682485
-new photon composing machine will set type from the tostringoutput of a computer . r. g. crockett w. w. youden /zip/ is a printout device that will produce justified text of typographical quality on film or paper from the off-line operation of a computer . character and command codes are read at high speed from magnetic tape; processed in a control console, and then are used to initiate the projection of characters onto film .
-78
-0.33410158014030994
-use of flexowriters to prepare large amounts of alphabetic legal data for computer retrieval . j. f. horty t. b. walsh rapid and accurate preparation of large amounts of alphabetic information as input for computer searching is feasible using flexowriters. by this method the university of pittsburgh health law center prepared 4,800,000 lines of legal text, mostly consisting of the statutes of various states and the federal government .
-73
-0.3044094748865756
-microfilm and hard copy transmission from document retrieval centers . g. f. stafford an all purpose communication system is described which has the ability to transmit documents both in hard copy format and in microfilms . microfilms can be produced by high speed direct readout from a computer with a scan converter and facsimile recorder . the facsimile printout may be graphic or alphanumeric . all communication methods, including voice communication may be channeled into the system .
-12
-0.2958508653987397
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-32
-0.23181864408247238
-document reproduction from microfilm is improved in speed  and cost by procedure making six copies per shot . w. h. pupp the document microfilming and copying procedure described here demonstrates a practical system for increasing the speed of producing hard copies by sixfold and reducing the cost of copy to about one-quarter normal . the procedure can improve the effectiveness of moderate-sized is and r systems .
-43
-0.2228580056568793
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-70
-0.2218714669934994
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-21
-0.21777809895480646
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-10
-0.2
-0.6666666666666666
-0.6666666666666666
-70
-2.1291549686733005
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-2
-1.7146267178151455
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-61
-0.5778980234428103
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-69
-0.5712051641654643
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-14
-0.5171650023079581
-educational requirements for indexers in a selective dissemination system a. resnick an experiment was conducted in the sdi system at ibm-asdd to determine if the educational level of the encoder had a significant effect on the percentage of notifications regarded as relevant by the users . considering all 800 documents encoded, high school educated encoders had a significantly higher percentage of their notices regarded as relevant than did four college educated encoders . eliminating documents for which no notifications were sent, no significant difference was found between the high school and college level encoders .
-48
-0.49787118749740134
-computerized search of the u. s. chemical patent literature . p. w. howerton more than 120,000 u.s. chemical and chemically related patents issued since 1950 have been indexed and are searchable by computer . the program permits putting up to 9 uniterms in conjunction or negation. the ibm 1401, 7070, and 7040 as well as the burroughs b 5000 have existing search capability .
-41
-0.4002196999183654
-analysis, indexing and correlation of information . k. h. meyer-uhlenried g. lustig research within euratomcetis refers to : comparison of text with thesauri, keyword-in-context method, and automatic classification on the basis of statistical evaluation by comparison of text with hierarchically organized keyword lists .
-25
-0.34263335047168725
-the reduction in bulk resulting from the typesetting of documents in modern composition systems f. r. kraft a 43-page typewritten article occupied only 22 pages when automatically made-up by a computer and produced by a linofilm phototypesetter . 2. 6 pages of lists photo-offset directly from computer print out, or 3 pages of tables produced in like manner, could fit on only one typeset page without reduction in readability .
-68
-0.304099987303003
-the relation of requests to concepts of file organization and search . r. m. shoffner a characterization of the relation of requests to file organization and search is presented . the requirement for exact-match or near-match response and the relation of processing effort to request predictability determine file organization . desired results and allowable processing effort determine the search rules .
-30
-0.2813035084550283
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-10
-0.2
-0.4
-0.26666666666666666
-2
-1.224052958166768
-a new efficient structure-matching procedure and its application to automatic retrieval systems . g. salton e. h. sussenguth, jr . a new automatic method is presented for the comparison of two-dimensional line patterns . retrieval applications include the matching of chemical structures, the comparison of syntactically analyzed excerpts extracted from documents and search requests, and the matching of document identifications consisting of twodimensional graphs with query identifications .
-68
-0.9950622155525889
-the relation of requests to concepts of file organization and search . r. m. shoffner a characterization of the relation of requests to file organization and search is presented . the requirement for exact-match or near-match response and the relation of processing effort to request predictability determine file organization . desired results and allowable processing effort determine the search rules .
-70
-0.7758011819374155
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-77
-0.7666342139100328
-adaptive and learning recognition machine to produce codes, or punch cards in response to spoken words . a. lesti cynthia iii is a scientific demonstrator of machine learning techniques and systems as applied to recognition of live speech regardless of speaker, and other forms of highly statistical signals . besides demonstrating the recognition of any phoneme, accents, and speaker, the machine has recognized seismic signals which cannot be separated by any other known method .
-34
-0.6498138434426379
-some search strategy factors in automated searches of technical reports at ddc . j. h. heald the relationship between subject-matter controls and search methods is discussed . the ddc philosophy is explained for treating descriptors with two levels of importance and for their built-in roles and links, through thesaurus usage and coding techniques .
-66
-0.6100715493514992
-linear vs. inverted file searching on serial access machines . r. e. swid based on a comparison of : 1. existing systems; 2. tape processing; 3. internal functions; and 4. file maintenance problems, a linear file organization is found to be superior to an inverted one for searching on tape oriented computer systems . programing sophistication and machine configuration can change this relationship only in degree .
-22
-0.5838402605862987
-the rapid selector as currently used for information search and replica copy retrieval t. o. bagg there are two rapid selector installations . one is at the national bureau of standards being used to study effectiveness of indexing and coding methods for machine retrieval . the other is at buships being used for handling of specifications, instruction manuals, engineering reports, etc .
-27
-0.47842655845856724
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-75
-0.4469775245564962
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-40
-0.3655270623820157
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-10
-0.2
-0.6666666666666666
-0.6666666666666666
-65
-0.5459265364757155
-the place of indexing in the design of information systems tests . a. j. goldwyn comparison of indexing techniques is difficult because current methodology distorts the role of indexing and its influence on total system design . tests planned to evaluate indexing both as a variable and as a source of variation will hopefully lead to more realistic appraisals of comparative system performance .
-80
-0.4645666085869791
-design of an experiment for evaluation of the citation index as a reference aid . b. lipetz objective evaluation of a documentation technique may be accomplished by introducing it in a limited test area and studying information user behavior in the test area versus control areas . such an experiment is being devised to test the merit of the citation index as a reference aid for physicists .
-47
-0.41077457570883086
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-11
-0.3396788142223027
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-71
-0.3310594941363423
-searchers want facts not folios retrieve data not documents the needle is dull sharpen it with automation . w. h. waldo storage of laboratory data available through appropriate questions to a computer has been successfully tested by monsanto as the optimum replacement for the uncommunicative classical communications system of report writing by hand, storage in file drawers, and retrieval by key words . the preparation of review articles is theoretically more desirable, but apparently not practical .
-52
-0.32780262130682597
-scope and duplication of coverage in two national information processing systems . v. slamecka the national information processing systems of east germany and czechoslovakia are described . both are semicentralized systems and it is shown that a semicentralized system of information centers will be inadequate in its scope of coverage in a given subject if the processing centers are to avoid duplication and redundancy .
-79
-0.32692126050683734
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-40
-0.32524952057110595
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-37
-0.30021398294267887
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-33
-0.28673979826173845
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-10
-0.5
-1.0
-0.7753968253968253
-21
-0.8525146987888774
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-3
-0.8005819203696963
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-33
-0.6754933979460895
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-43
-0.4870856447098977
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-10
-0.37529743534765836
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-37
-0.34213626079228227
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-76
-0.3242582020269711
-some human elements in the handling of technical information reflections of an information scientist . g. e. m. wohlauer the characteristics of professional information scientists are discussed with emphasis on the human factors . ideal working conditions and the required background of knowledge for this type of personnel are given .
-5
-0.28385236473046443
-feasibility criteria for establishing specialized information centers some guidelines are presented for estimating the practicability of establishing specialized information centers . to arrive at a valid justification for a new service, criteria will need to be developed in each of four areas : clientele to be served; information to be handled; provision of adequate funding; and, relationships to existing services .
-72
-0.2706565845246954
-information specialist training programs - student support graduate prospects . t. c. hines the need for appropriate salary incentives and subsidies during training is found to be an important factor in attracting students to the study of information science . it is hoped that graduate stipends and salary levels can remedy the information specialist shortage .
-1
-0.22591416375490625
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-10
-0.3
-0.5
-0.35000000000000003
-33
-0.5529440779335717
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-47
-0.44544743213442983
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-10
-0.3878089858288466
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-36
-0.3145640302305913
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-57
-0.2825689337085897
-compilation and computer updating of a medical sciences thesaurus . l. l. mcgee w. j. holliman g. d. adams a. z. loren a /medical and health related sciences thesaurus/ has been compiled as an indexing guide and entered on computer for updating and periodic print-outs . the first printed edition of the thesaurus contains approximately 12,200 biomedical terms, of which 6,700 are main headings; 2,200 subheadings; 2,300 /see/ references; and 1,000 instructional items .
-11
-0.2654290985217808
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-12
-0.1882582148183218
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-34
-0.1809821727254468
-some search strategy factors in automated searches of technical reports at ddc . j. h. heald the relationship between subject-matter controls and search methods is discussed . the ddc philosophy is explained for treating descriptors with two levels of importance and for their built-in roles and links, through thesaurus usage and coding techniques .
-43
-0.1733280866540414
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-40
-0.17080682711131312
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-10
-0.1
-1.0
-1.0
-35
-1.0468931140316409
-density of library book use in biology and medicine . f. g. kilgour use quotients were obtained by dividing numbers of book volumes published in 1951-62 and circulated in one year by volumes in the library's corresponding subject classes . books of the last dozen years experienced six times as concentrated use as the entire book and journal collection.
-47
-0.8069721505655356
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-36
-0.7266333161761064
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-78
-0.5880711965152758
-use of flexowriters to prepare large amounts of alphabetic legal data for computer retrieval . j. f. horty t. b. walsh rapid and accurate preparation of large amounts of alphabetic information as input for computer searching is feasible using flexowriters. by this method the university of pittsburgh health law center prepared 4,800,000 lines of legal text, mostly consisting of the statutes of various states and the federal government .
-43
-0.4672435755887965
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-81
-0.4446863852168156
-the automated multilevel encyclopedia as a new mode of scientific communication . h. g. bohnert m. kochen the computer revolution encourages reexamination of the encyclopedia concept . no longer confined to book form, it can be enlarged to embrace several levels of condensation from a library-sized store, with updating, text preparation, access, and distribution handled differently at different levels, partially replacing, at base level, the journal system .
-11
-0.4355156222490121
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-3
-0.42810917345638955
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-21
-0.42308517102123877
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-1
-0.38057591857555817
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-10
-0.8
-0.8888888888888888
-0.8626543209876544
-3
-1.5397097447090027
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-21
-1.1319026074406662
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-72
-0.9651069800989795
-information specialist training programs - student support graduate prospects . t. c. hines the need for appropriate salary incentives and subsidies during training is found to be an important factor in attracting students to the study of information science . it is hoped that graduate stipends and salary levels can remedy the information specialist shortage .
-43
-0.8608965569756835
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-59
-0.8076977511381132
-the new program for training information technicians at the u. s. department of agriculture graduate school . u.s. department of agriculture graduate school j. sherrod the graduate school of the u. s. department of agriculture offers an organized program of study consisting of non-professional, library and documentation courses . these courses offer background information and training for the sub-professional assistant and others whose work requires a knowledge of information techniques . individuals completing the program are granted a certified statement of accomplishment in library techniques .
-10
-0.7542172430039238
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-33
-0.7281201001181249
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-45
-0.6434794169455869
-graduate training in information science : definitions and developments at the georgia institute of technology . d. crosland the graduate degree program in information science at georgia tech is described . areas of specialization within the curriculum and definitions of terms are given .
-14
-0.5358139098773077
-educational requirements for indexers in a selective dissemination system a. resnick an experiment was conducted in the sdi system at ibm-asdd to determine if the educational level of the encoder had a significant effect on the percentage of notifications regarded as relevant by the users . considering all 800 documents encoded, high school educated encoders had a significantly higher percentage of their notices regarded as relevant than did four college educated encoders . eliminating documents for which no notifications were sent, no significant difference was found between the high school and college level encoders .
-6
-0.5151868844672322
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-10
-0.2
-0.6666666666666666
-0.6666666666666666
-53
-1.0203182954223213
-documents and information exchange . b. e. shachtman the importance of document and information exchange is pointed out with an indication of its status and reference to some of the major exchange institutions suggestions for the future are decentralization of, national responsibility for collecting, and the establishment of a national exchange information and advisory service.
-13
-0.9167619321299479
-recent activities in foreign exchanges . i. c. o brien the availability of foreign publications by exchange with foreign countries is described . international regulations governing the exchange of publications among official agencies are given . many organizations engage in the exchange of information and scientific data .
-40
-0.4987312075482512
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-37
-0.37406554965086014
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-6
-0.34492366029453275
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-1
-0.287680845238285
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-52
-0.2658214732538873
-scope and duplication of coverage in two national information processing systems . v. slamecka the national information processing systems of east germany and czechoslovakia are described . both are semicentralized systems and it is shown that a semicentralized system of information centers will be inadequate in its scope of coverage in a given subject if the processing centers are to avoid duplication and redundancy .
-79
-0.26510676076810175
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-75
-0.24463477338649037
-a system for transcribing printed text into a machine readable format . j. l. bennett the printed text from 50 articles on speech analysis and synthesis has been transcribed into a computer, readable format . this /short/ summarizes the steps in the copying method and serves as a basis for exchange of experience and of ideas on alternate transcription methods .
-66
-0.23057962767709186
-linear vs. inverted file searching on serial access machines . r. e. swid based on a comparison of : 1. existing systems; 2. tape processing; 3. internal functions; and 4. file maintenance problems, a linear file organization is found to be superior to an inverted one for searching on tape oriented computer systems . programing sophistication and machine configuration can change this relationship only in degree .
-10
+0
 0.0
 0.0
 0.0
-32
-0.6458779328287493
-document reproduction from microfilm is improved in speed  and cost by procedure making six copies per shot . w. h. pupp the document microfilming and copying procedure described here demonstrates a practical system for increasing the speed of producing hard copies by sixfold and reducing the cost of copy to about one-quarter normal . the procedure can improve the effectiveness of moderate-sized is and r systems .
-38
-0.48528550345402055
-c. m. herman  microprint as a medium for primary publication . microprint has been demonstrated an acceptable medium for publication in an experiment conducted by the wildlife disease association . with author composition costs slightly over seven cents per 3 x 5 inch card, up to 47 pages . need is recognized for development of standards and improvement of accessory retrieval apparatus.
-49
-0.4220057387382743
-microfiche, a new information media . c. p. yerkes standard specifications for card size, layout and reduction ratios have been adopted by all major manufacturers of microfiche . the use of this miniaturization of pages of information on transparent film sheets should increase available information while decreasing document switching time and costs .
-46
-0.36176857135529117
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-47
-0.35501251889111396
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-67
-0.3065627192215614
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-11
-0.28033498095263953
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-68
-0.2661449728645046
-the relation of requests to concepts of file organization and search . r. m. shoffner a characterization of the relation of requests to file organization and search is presented . the requirement for exact-match or near-match response and the relation of processing effort to request predictability determine file organization . desired results and allowable processing effort determine the search rules .
-33
-0.2348170876749246
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-39
-0.23370064490534911
-research on a linear network model and analog device for associative retrieval . p. e. jones in our investigations at arthur d. little, inc ., we have pursued the applicability of linear network analysis to the retrieval of information from a given body of data . this point of view provides a framework which encompasses many of the parameters of the retrieval process and enables analytic exploration of the model .
-10
-0.7
-0.21212121212121213
-0.15151515151515155
-65
-0.6927089809589897
-the place of indexing in the design of information systems tests . a. j. goldwyn comparison of indexing techniques is difficult because current methodology distorts the role of indexing and its influence on total system design . tests planned to evaluate indexing both as a variable and as a source of variation will hopefully lead to more realistic appraisals of comparative system performance .
-6
-0.6773768878282159
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-36
-0.6560350152252618
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-79
-0.4665028543886489
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-62
-0.461106387351243
-a mechanized information storage and retrieval system with the option for manual access . r. h. wheater an information storage and retrieval system capable of both mechanized and manual access at the option of the user is described . each reference is a stylized abstract . the keywords are assigned role indicators and a permuted index is available . the system achieves mechanical flexibility and both mechanical and manual access on a low budget .
-48
-0.458795775276726
-computerized search of the u. s. chemical patent literature . p. w. howerton more than 120,000 u.s. chemical and chemically related patents issued since 1950 have been indexed and are searchable by computer . the program permits putting up to 9 uniterms in conjunction or negation. the ibm 1401, 7070, and 7040 as well as the burroughs b 5000 have existing search capability .
-27
-0.45473993726437817
-is relevance an adequate criterion in retrieval system evaluation .que l. b. doyle it is argued that the use of /relevance to a search request/ as a criterion of what a system retrieves is, in effect, a suboptimization on the machine side of the manmachine interface, and that the searcher needs an efficient exploratory system rather than a request implementing system .
-30
-0.45182176485818254
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-52
-0.417780697916384
-scope and duplication of coverage in two national information processing systems . v. slamecka the national information processing systems of east germany and czechoslovakia are described . both are semicentralized systems and it is shown that a semicentralized system of information centers will be inadequate in its scope of coverage in a given subject if the processing centers are to avoid duplication and redundancy .
-40
-0.3987636199552835
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-10
-0.1
-0.25
-0.05
-10
-0.3781373306461847
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-33
-0.36494310357244214
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-36
-0.33327613591529337
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-68
-0.321203905975789
-the relation of requests to concepts of file organization and search . r. m. shoffner a characterization of the relation of requests to file organization and search is presented . the requirement for exact-match or near-match response and the relation of processing effort to request predictability determine file organization . desired results and allowable processing effort determine the search rules .
-48
-0.3003065484754759
-computerized search of the u. s. chemical patent literature . p. w. howerton more than 120,000 u.s. chemical and chemically related patents issued since 1950 have been indexed and are searchable by computer . the program permits putting up to 9 uniterms in conjunction or negation. the ibm 1401, 7070, and 7040 as well as the burroughs b 5000 have existing search capability .
-30
-0.29016778706247326
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-40
-0.24869122039751126
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-52
-0.24176069988077653
-scope and duplication of coverage in two national information processing systems . v. slamecka the national information processing systems of east germany and czechoslovakia are described . both are semicentralized systems and it is shown that a semicentralized system of information centers will be inadequate in its scope of coverage in a given subject if the processing centers are to avoid duplication and redundancy .
-79
-0.24111067944163764
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-37
-0.2214135516698084
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-10
-0.1
-1.0
-0.125
-8
-0.7355838867339315
-a program for dissemination of specific data on materials . h. t. johnson an indexing vocabulary of descriptors is used to index and abstract a large body of specific technical literature . summary data sheets of the abstracted material are made available as well as an inexpensive literature index .
-65
-0.5457054971607347
-the place of indexing in the design of information systems tests . a. j. goldwyn comparison of indexing techniques is difficult because current methodology distorts the role of indexing and its influence on total system design . tests planned to evaluate indexing both as a variable and as a source of variation will hopefully lead to more realistic appraisals of comparative system performance .
-6
-0.4651524888909534
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-15
-0.42850614023925915
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-28
-0.3489156525022191
-the role of thesauri in the convergence of word and concept indexing . s. herner the increase in indexing vocabularies guiding the use of terms and indicating their relationship has resulted in a convergence between word and concept indexing. vocabularies have emerged as devices for converting from words to concepts . the intellectual role of the indexer has shifted to the vocabulary designer . current manifestations of this shift are discussed .
-61
-0.33745237162609654
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-30
-0.31265728184122515
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-36
-0.289787380506507
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-67
-0.28539254389257174
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-48
-0.28085426416561066
-computerized search of the u. s. chemical patent literature . p. w. howerton more than 120,000 u.s. chemical and chemically related patents issued since 1950 have been indexed and are searchable by computer . the program permits putting up to 9 uniterms in conjunction or negation. the ibm 1401, 7070, and 7040 as well as the burroughs b 5000 have existing search capability .
-10
-0.4
-0.4444444444444444
-0.21604938271604937
-40
-0.5834271034895362
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-4
-0.5027228175013583
-role of /letters/ journals in primary distribution of information g. l. trigg /letters/ journals, which developed out of the /letters to the editor/ section of research journals, provide rapid dissemination of results which are judged likely to have marked effects on the work of a substantial number of people . this is accomplished by keeping the communications brief, reviewing them promptly, and making use of rapid publication methods .
-69
-0.283640788668843
-automatic retrieval and selective dissemination of references from chemical titles : improving the selection process . r. r. freeman an ibm 1401 computer program for retrieval of references from chemical titles has been developed. future areas of research include selection based, in addition to keywords and initially-occurring stems, on author names, journal reference codes, non-initial morphemes and stems, and both subjectively and statistically-determined relevance .
-17
-0.258314535540666
-document recovery r. l. bircg the naming of journals and organizations : implications for names are chosen for technical journals for societies often incorporating factors which needlessly complicate filing and recovery . changes of name also appear to often ignore the effect on commonplace information retrieval procedures . factors considered include ease of memory retention, compatibility of wording and of layout of title pages with filing systems used in offices, libraries, and bibliographies .
-37
-0.23870112018150386
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-46
-0.21202882158392233
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-8
-0.20410311553920035
-a program for dissemination of specific data on materials . h. t. johnson an indexing vocabulary of descriptors is used to index and abstract a large body of specific technical literature . summary data sheets of the abstracted material are made available as well as an inexpensive literature index .
-12
-0.17497656449323526
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-19
-0.17049389106234653
-recording text information in machine form at the time of primary publication l. f. buckland it is proposed to develop a primary publication procedure which in addition to publishing the journal, records data needed for secondary publishing, and storage and retrieval purposes . the limitations of typography and the requirement for a recording procedure which identifies content or item function are stated . the problems of complex symbol representation are posed .
-57
-0.16765555326325754
-compilation and computer updating of a medical sciences thesaurus . l. l. mcgee w. j. holliman g. d. adams a. z. loren a /medical and health related sciences thesaurus/ has been compiled as an indexing guide and entered on computer for updating and periodic print-outs . the first printed edition of the thesaurus contains approximately 12,200 biomedical terms, of which 6,700 are main headings; 2,200 subheadings; 2,300 /see/ references; and 1,000 instructional items .
-10
-0.1
-0.09090909090909091
-0.018181818181818184
-43
-0.7498172569405618
-the education of science information personnel - a challenge to the library schools . a. m. rees changes and additions to library school curricula are planned to include up to date courses in information science . a sound curriculum for the education of information science personnel should integrate traditional library science with empirical and theoretical work in information systems and retrieval .
-21
-0.5531751174974604
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-10
-0.549782350843192
-accrediting information science programs . a plea is made that the responsibility for accrediting educational programs in information science rests with the a. d. i. suitable accreditation of schools will result in a better definition of information science and more successful recruitment in the field .
-60
-0.5296251939592642
-toward a definition of information science . l. b. heilprin an operational definition is attempted for the new composite discipline /information science/. the approach is based on the physics and psychology of messages. to include all steps in the /information transfer chain/ the definition must remain general . a probable limit of specificity is suggested in the /final/ definition offered .
-40
-0.46944736952432475
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-46
-0.45177213478289735
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-3
-0.4293626395724742
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-45
-0.40735185852087463
-graduate training in information science : definitions and developments at the georgia institute of technology . d. crosland the graduate degree program in information science at georgia tech is described . areas of specialization within the curriculum and definitions of terms are given .
-67
-0.3750792498841619
-a national plan for science abstracting and indexing services . r. a. jensen  a national plan for science abstracting and indexing services . a national plan for science abstracting and indexing services is presented . both profession oriented services and project oriented services are considered . market, volume and cost are discussed .
-52
-0.2833056873260146
-scope and duplication of coverage in two national information processing systems . v. slamecka the national information processing systems of east germany and czechoslovakia are described . both are semicentralized systems and it is shown that a semicentralized system of information centers will be inadequate in its scope of coverage in a given subject if the processing centers are to avoid duplication and redundancy .
-10
-0.2
-1.0
-0.8333333333333333
-47
-1.665279250333229
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-11
-0.9316202951536954
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-51
-0.8667941495996064
-some observations on mechanization of library processes . e. m. mccormick the mechanization of library processes is in large part dependent on proper communication between librarians and computer experts . an appreciation of the problems of libraries as well as the potentialities of computers will result in suitable data processing and control systems .
-1
-0.7347354328597738
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-62
-0.7162672840824715
-a mechanized information storage and retrieval system with the option for manual access . r. h. wheater an information storage and retrieval system capable of both mechanized and manual access at the option of the user is described . each reference is a stylized abstract . the keywords are assigned role indicators and a permuted index is available . the system achieves mechanical flexibility and both mechanical and manual access on a low budget .
-15
-0.5850639259813456
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-65
-0.5474330916030098
-the place of indexing in the design of information systems tests . a. j. goldwyn comparison of indexing techniques is difficult because current methodology distorts the role of indexing and its influence on total system design . tests planned to evaluate indexing both as a variable and as a source of variation will hopefully lead to more realistic appraisals of comparative system performance .
-79
-0.5207972921727071
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-36
-0.5030422919604832
-computerization of book catalogues at the columbia, harvard and yale medical libraries . f. g. kilgour a project for the computerization of book catalogues at the harvard, yale and columbia medical libraries has three main objects : to increase speed and completeness of information retrieval by combining the card catalogues of the libraries and allowing publication of the combined catalogue in book form ; to permit future expansion of the information services ; to reduce the administrative expenses of the libraries .
-30
-0.49534340511334796
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-10
-0.1
-0.25
-0.08333333333333333
-47
-0.5810052260677101
-retrieval and the general library . l.a. schultheiss the retrieval problems of a general library tend to differ from those of special libraries . the automation of information or document retrieval may be of less value than the automation or mechanization of the tedious clerical work involved in rendering traditional library services .
-1
-0.4886144214852427
-the ibm dsd technical information center - a total systems approach combining traditional library features and mechanized computer processing h. s. white the ibm data systems division technical information center (tic) provides an operating developmental system for integrated and compatible mechanized processing of technical information received within the organization. the system offers several advantages : 1 . it is a sophisticated mechanized system for dissemination and retrieval; 2 . it is compatible with all library mechanized records produced under a standard processing format within ibm libraries, providing such traditional tools as 3 x 5 catalog cards, circulation records and overdue notices; 3 . it is reversible, so that discontinuation of machine processing would not cause gaps in the library's manual records; 4 . it is controlled, producing statistical evaluations of its own program efficiency; 5 . it is user-oriented, providing 24-hour copy access and immediate microfilm access to its documents; 6 . it is relatively simple, relying on the ibm 1401 data processing system for all its processing and tostringoutput. since the system has been operating for over a year, the conclusions drawn are based on actual experience .
-33
-0.43257334360399613
-/information please/ services . f. e. kelsey information please services are required to provide answer promptly to urgent questions of current interest in a wide variety of fields . the implications of automation of certain aspects of information services are described, including the need for publicity, the interpretation of data and the role of human judgment .
-79
-0.42638071847152736
-implementing a large scale retrieval system for satellite information centers . r. w. harrold the implementation of a large scale military information system, in a few months, involving satellite centers . this system will eventually exceed one million information items . generalized computer programs made this feat possible . the present system provides for considerable future expansion and the adoption of new techniques or hardware .
-62
-0.36552127135969126
-a mechanized information storage and retrieval system with the option for manual access . r. h. wheater an information storage and retrieval system capable of both mechanized and manual access at the option of the user is described . each reference is a stylized abstract . the keywords are assigned role indicators and a permuted index is available . the system achieves mechanical flexibility and both mechanical and manual access on a low budget .
-37
-0.3518167052079475
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-6
-0.3475343590130923
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-11
-0.34685917542337386
-planning, organizing and implementing mechanized systems in a space technology library l. i. chasen in 1959, a study was undertaken on the feasibility of automating the missile and space division library . plans for automation included, mechanizing circulation and recall, descriptor retrieval, flexowriter - ge-225 combination, desk catalogs in lieu of card catalog and mechanized listing of subscriptions to journals . implementation was accomplished by phases over a four year period . this paper describes the organization of mechanized systems and results to date .
-3
-0.3038600823296248
-an important need and opportunity for a. d. i. leadership in information science education . r. l. taylor current trends in information science education appear inadequate for the important need of the nation's practicing professional personnel for training in becoming information specialists or more proficient users of information systems . a particular educational program by a. d. i. is suggested to supplement others in meeting this presumptive need .
-12
-0.2958508653987397
-the materials information network . the elements of a network of information centers are described . the various files and retrieval procedures at each data center are outlined . information can be retrieved directly from each specialized center or through the air force materials information center .
-10
-0.1
-0.16666666666666666
-0.041666666666666664
-30
-0.6367376167995973
-relational indexing and new methods of concept organization for information retrieval . j. farradane relational indexing, which has proved valuable in detailed indexing for retrieval, requires complementation by new methods of concept organization and control, which are now under investigation . research on the nature of the variables involved and on tests methods and their statistical validity is now being planned .
-22
-0.5681725391682894
-the rapid selector as currently used for information search and replica copy retrieval t. o. bagg there are two rapid selector installations . one is at the national bureau of standards being used to study effectiveness of indexing and coding methods for machine retrieval . the other is at buships being used for handling of specifications, instruction manuals, engineering reports, etc .
-65
-0.5457054971607347
-the place of indexing in the design of information systems tests . a. j. goldwyn comparison of indexing techniques is difficult because current methodology distorts the role of indexing and its influence on total system design . tests planned to evaluate indexing both as a variable and as a source of variation will hopefully lead to more realistic appraisals of comparative system performance .
-15
-0.5396012953790854
-characteristics of programs for kwic and other computer-produced indexes this paper defines and discusses most of the different types of computer-produced indexes including keyword, author, corporate author, citation and conventional subject-heading indexes, also the computer input and tostringoutput formats for indexes, double look-up, coden and a look at the future . computers have been used to produce many different thor, citation, source-code or report number, and even conventional subject-heading indexes . most have been /current awareness/ indexes, although a few cumulative or retrospective indexes have also been produced . this paper discusses computer input and tostringoutput formats, most of the different types of computer-produced indexes, problems of double look-up, codens and a look at the future .
-6
-0.4651524888909534
-a new centralized information-retrieval system for the petroleum industry including a computer search system and two manual indexes e. h. brenner b. h. weil n. e. rawson an integrated system was developed cooperatively to include a current awareness manual index, a dual dictionary, and a search tape; all three indexes are produced from a master computer tape . updating, training, and advice will be provided companies for searching the abstracts and further indexing and merging of company internal information .
-8
-0.42757905360235665
-a program for dissemination of specific data on materials . h. t. johnson an indexing vocabulary of descriptors is used to index and abstract a large body of specific technical literature . summary data sheets of the abstracted material are made available as well as an inexpensive literature index .
-61
-0.4091866367827087
-an experiment in automatic indexing of french language documents . f. levery thirty french language documents have been indexed automatically and the results compared favorably with manual indexing . use was made of a common word list and statistical procedures helped in determining keywords .
-28
-0.40454396490659755
-the role of thesauri in the convergence of word and concept indexing . s. herner the increase in indexing vocabularies guiding the use of terms and indicating their relationship has resulted in a convergence between word and concept indexing. vocabularies have emerged as devices for converting from words to concepts . the intellectual role of the indexer has shifted to the vocabulary designer . current manifestations of this shift are discussed .
-58
-0.35937618506912633
-producing indexing aids such as a dictionary or thesaurus from a single punched card deck . j. f. tinker r. b. smith by use of relatively simple equipment, such as a sorter, and tabulator or document writer, a dictionary or thesaurus can be prepared . the format of the thesaurus can be designed to display a variety of relationships between indexing terms . the format of the thesaurus can be varied without changing its intellectual content to suit the habits and viewpoints of the user . corrections, additions, and reverse entries to these indexing and retrieval aids can be made simply and easily . the deck can be used in conjunction with the listomatic method or computer-controlled photo-composing devices to produce high-quality print-outs .
-70
-0.34087897743101353
-encoding of organic chemical structural formulas and reactions by machine . e. meyer a method and a device are described by means of which it is possible to bring structural formulas and reactions into a form suitable for machine processing, without loss of information, so that they can be handled by automatic data processing systems and automatically transformed into other coding systems .
-10
-0.2
-0.25
-0.14583333333333331
-46
-0.7060148117178158
-status report on the biological sciences communication project (bscp) . c. w. shilling typical studies on the flow of life-sciences information by the biological sciences communication project deal with the citation of russian literature, sources of support of scientific research, page-cost policy of journals, and the accuracy of titles in describing the contents of papers . other programs are of interest to information administrators.
-24
-0.41118510836103495
-the role of the office of technical services in the interchange of documents . l. a. hamrick the role of the office of technical services in the interchange of documents is described . a technical reports program maintains liaison among agencies engaged in government research . technical translations and information about translations are made available . a reference and bibliographic service is offered both on a retrospective and current awareness basis .
-13
-0.38755421049031585
-recent activities in foreign exchanges . i. c. o brien the availability of foreign publications by exchange with foreign countries is described . international regulations governing the exchange of publications among official agencies are given . many organizations engage in the exchange of information and scientific data .
-40
-0.3419933173876989
-centralized processing of technical information at the scientific and technical information facility . c. l. rothgeb a centralized processing system for rapid dissemination of research and development results in aerospace science and technology is described . this system uses advanced computer and journal preparation techniques for both information searches and abstract publication.
-72
-0.23275938893797138
-information specialist training programs - student support graduate prospects . t. c. hines the need for appropriate salary incentives and subsidies during training is found to be an important factor in attracting students to the study of information science . it is hoped that graduate stipends and salary levels can remedy the information specialist shortage .
-21
-0.23054072512078413
-science information personnel an assessment and projection . w. k. lowry the need for information science personnel will increase . properly qualified professional people must come from specialized training programs . formal instruction and promotional efforts are needed to give stature to professional work in science information whether in library services, in literature evaluation or in fundamental research in information storage and retrieval .
-37
-0.20879045703968602
-progress report on ibm's selective dissemination of information  -sdi-4 system ibm 7090 - 1401 data processing system . a. resnick since the inception of the sdi concept by h. p. luhn in 1958, several iterations of programs have evolved to produce what is now called an sdi-4 system . the prime function of this system is to provide, in a timely and economical fashion, current information to those individuals within the ibm company who have a need for that information .
-8
-0.19780329132955263
-a program for dissemination of specific data on materials . h. t. johnson an indexing vocabulary of descriptors is used to index and abstract a large body of specific technical literature . summary data sheets of the abstracted material are made available as well as an inexpensive literature index .
-78
-0.1662845253819126
-use of flexowriters to prepare large amounts of alphabetic legal data for computer retrieval . j. f. horty t. b. walsh rapid and accurate preparation of large amounts of alphabetic information as input for computer searching is feasible using flexowriters. by this method the university of pittsburgh health law center prepared 4,800,000 lines of legal text, mostly consisting of the statutes of various states and the federal government .
-4
-0.15390474868180726
-role of /letters/ journals in primary distribution of information g. l. trigg /letters/ journals, which developed out of the /letters to the editor/ section of research journals, provide rapid dissemination of results which are judged likely to have marked effects on the work of a substantial number of people . this is accomplished by keeping the communications brief, reviewing them promptly, and making use of rapid publication methods .
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0
+0
+0.0
+0.0
+0.0

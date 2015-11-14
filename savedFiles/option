@@ -1,1 +1,1 @@
-true uploads/custom.stopword false false false 1 true false false 1 0 true false 0 false false false uploads/adi.all uploads/query.text uploads/qrels.text 5 10 false
+true uploads/custom.stopword false false false 1 true false false 1 0 true true 0 true false false uploads/cisi.all uploads/query.text uploads/qrels.text 10 10 false

@@ -196,6 +196,7 @@ public class mainTest {
         }
         else { //bukan experiment, pasti interactive
             if (ops.isSecondRetrieval) { //ini pake yg relevance feedback
+                System.out.println("second retrieval");
                 secondRetrieval(ops);
             }
             else {
@@ -203,6 +204,7 @@ public class mainTest {
                     pseudoRelevance(ops);
                 }
                 else { //relevance feedback pertama
+                    System.out.println("first retrieval");
                     firstRetrieval(ops);
                 }
             }

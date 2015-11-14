@@ -149,14 +149,10 @@ public class DocumentRanker {
                 }
 
                 writer.println(retrievedSize);
-                writer.println(0.0);
-                writer.println(0.0);
-                writer.println(0.0);
                 for (int i=0; i<retrievedSize; i++) {
                     writer.println(retrievedDocNum.get(i)+1);
                     writer.println(SCdocs.get(i));
                     writer.println(docs.getDocument(retrievedDocNum.get(i)));
-                    writer.println(tokenizedDocuments.get(retrievedDocNum.get(i)).getText().toString());
                 }
                 qAt++;
             }
@@ -507,7 +503,7 @@ public class DocumentRanker {
             }
             while (relNumber!=null) {
                 relNumber = br.readLine();
-                if (relNumber!="") {
+                if (relNumber!=null && relNumber!="") {
                     relevanceJudgementUser.add(Integer.valueOf(relNumber));
                 }
             }

@@ -40,22 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocumentRanker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DocumentRanker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DocumentRanker/DocumentRanker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71794873">
-              <caret line="158" column="104" selection-start-line="158" selection-start-column="104" selection-end-line="158" selection-end-column="104" />
+            <state vertical-scroll-proportion="-6.5925927">
+              <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#queryTask#0;class#DocumentRanker#0" expanded="false" />
                 <element signature="method#queryTaskWithoutWeighting#0;class#DocumentRanker#0" expanded="false" />
                 <element signature="e#4264#4273#0" expanded="true" />
                 <element signature="e#4328#4336#0" expanded="true" />
-                <element signature="e#6517#6526#0" expanded="true" />
-                <element signature="e#6581#6589#0" expanded="true" />
-                <element signature="e#19608#19617#0" expanded="true" />
-                <element signature="e#19672#19680#0" expanded="true" />
-                <element signature="e#20809#20818#0" expanded="true" />
+                <element signature="e#6301#6310#0" expanded="true" />
+                <element signature="e#6365#6373#0" expanded="true" />
+                <element signature="e#19392#19401#0" expanded="true" />
+                <element signature="e#19456#19464#0" expanded="true" />
+                <element signature="e#20593#20602#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/mainPackage/mainTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+              <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Option.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Option.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Option/Option.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-53.77778">
-              <caret line="126" column="50" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.24786325">
+              <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -152,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Model/Queries.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/RelevanceJudgement.java" />
         <option value="$PROJECT_DIR$/src/main/java/VSM/VSM.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mainPackage/mainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Option/Option.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mainPackage/mainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DocumentRanker/DocumentRanker.java" />
       </list>
     </option>
@@ -742,15 +741,14 @@
           <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#queryTask#0;class#DocumentRanker#0" expanded="false" />
             <element signature="method#queryTaskWithoutWeighting#0;class#DocumentRanker#0" expanded="false" />
             <element signature="e#4264#4273#0" expanded="true" />
             <element signature="e#4328#4336#0" expanded="true" />
-            <element signature="e#6517#6526#0" expanded="true" />
-            <element signature="e#6581#6589#0" expanded="true" />
-            <element signature="e#19608#19617#0" expanded="true" />
-            <element signature="e#19672#19680#0" expanded="true" />
-            <element signature="e#20809#20818#0" expanded="true" />
+            <element signature="e#6301#6310#0" expanded="true" />
+            <element signature="e#6365#6373#0" expanded="true" />
+            <element signature="e#19392#19401#0" expanded="true" />
+            <element signature="e#19456#19464#0" expanded="true" />
+            <element signature="e#20593#20602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,15 +875,14 @@
           <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#queryTask#0;class#DocumentRanker#0" expanded="false" />
             <element signature="method#queryTaskWithoutWeighting#0;class#DocumentRanker#0" expanded="false" />
             <element signature="e#4264#4273#0" expanded="true" />
             <element signature="e#4328#4336#0" expanded="true" />
-            <element signature="e#6517#6526#0" expanded="true" />
-            <element signature="e#6581#6589#0" expanded="true" />
-            <element signature="e#19608#19617#0" expanded="true" />
-            <element signature="e#19672#19680#0" expanded="true" />
-            <element signature="e#20809#20818#0" expanded="true" />
+            <element signature="e#6301#6310#0" expanded="true" />
+            <element signature="e#6365#6373#0" expanded="true" />
+            <element signature="e#19392#19401#0" expanded="true" />
+            <element signature="e#19456#19464#0" expanded="true" />
+            <element signature="e#20593#20602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,15 +1030,14 @@
           <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#queryTask#0;class#DocumentRanker#0" expanded="false" />
             <element signature="method#queryTaskWithoutWeighting#0;class#DocumentRanker#0" expanded="false" />
             <element signature="e#4264#4273#0" expanded="true" />
             <element signature="e#4328#4336#0" expanded="true" />
-            <element signature="e#6517#6526#0" expanded="true" />
-            <element signature="e#6581#6589#0" expanded="true" />
-            <element signature="e#19608#19617#0" expanded="true" />
-            <element signature="e#19672#19680#0" expanded="true" />
-            <element signature="e#20809#20818#0" expanded="true" />
+            <element signature="e#6301#6310#0" expanded="true" />
+            <element signature="e#6365#6373#0" expanded="true" />
+            <element signature="e#19392#19401#0" expanded="true" />
+            <element signature="e#19456#19464#0" expanded="true" />
+            <element signature="e#20593#20602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1305,18 +1301,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Option/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-53.77778">
-          <caret line="126" column="50" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mainPackage/mainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1325,20 +1313,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentRanker/DocumentRanker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71794873">
-          <caret line="158" column="104" selection-start-line="158" selection-start-column="104" selection-end-line="158" selection-end-column="104" />
+        <state vertical-scroll-proportion="-6.5925927">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#queryTask#0;class#DocumentRanker#0" expanded="false" />
             <element signature="method#queryTaskWithoutWeighting#0;class#DocumentRanker#0" expanded="false" />
             <element signature="e#4264#4273#0" expanded="true" />
             <element signature="e#4328#4336#0" expanded="true" />
-            <element signature="e#6517#6526#0" expanded="true" />
-            <element signature="e#6581#6589#0" expanded="true" />
-            <element signature="e#19608#19617#0" expanded="true" />
-            <element signature="e#19672#19680#0" expanded="true" />
-            <element signature="e#20809#20818#0" expanded="true" />
+            <element signature="e#6301#6310#0" expanded="true" />
+            <element signature="e#6365#6373#0" expanded="true" />
+            <element signature="e#19392#19401#0" expanded="true" />
+            <element signature="e#19456#19464#0" expanded="true" />
+            <element signature="e#20593#20602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Option/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24786325">
+          <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

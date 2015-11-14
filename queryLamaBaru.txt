@@ -1,4 +1,4 @@
-[information, retrieval]
+[computer, revolution]
 [1.0, 1.0]
-[information, retrieval]
-[3.0, 6.0]
+[computer, revolution]
+[0.8333333333333334, 1.8333333333333333]
