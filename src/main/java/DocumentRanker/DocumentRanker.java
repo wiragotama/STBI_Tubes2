@@ -322,15 +322,15 @@ public class DocumentRanker {
                     }
                 }
                 else { //pseudo relevance feedback
-                    if (option.relevanceFeedbackAlgo == 0) { //rocchio
-                        //alfa, beta, gama dianggap 1
-                        newWeight = q.getWeightAt(term) + (sum / (double) relevantDocsIdx.size()) + (sumIrre / (double) nonRelevantDocsIdx.size());
-                    } else if (option.relevanceFeedbackAlgo == 1) { //ide reguler
+                    } if (option.relevanceFeedbackAlgo == 1) { //ide reguler
                         newWeight = q.getWeightAt(term) + sum + sumIrre;
-                    } else { //ide dec hi
+                    } else if (option.relevanceFeedbackAlgo == 2){ //ide dec hi
                         newWeight = q.getWeightAt(term) + sum + sumIrre;
                     }
-                }
+                    else { //rocchio
+                        //alfa, beta, gama dianggap 1
+                        newWeight = q.getWeightAt(term) + (sum / (double) relevantDocsIdx.size()) + (sumIrre / (double) nonRelevantDocsIdx.size());
+                    }
                 queries.setWeight(qAt, term, newWeight);
             }
             qAt++;
@@ -607,6 +607,199 @@ public class DocumentRanker {
             secondRetrievalV2();
 
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Melakukan banyak query ke collection, menggunakan query testing
+     */
+    public void experimentLaporan() {
+
+        List<DocumentRank> result;
+        int retrievedSize = 0;
+        StringBuffer toStringOutput = new StringBuffer(""); //mas string itu immutable
+
+        // Evaluasi setiap document yang diretrieve dengan relevance judgment pada setiap query
+        Collection<Query> qex = queries.getQueries().values();
+        int qAt = 0;
+        for (Query q : qex) {
+            Collection<Integer> relevance = relevanceJudgement.get(qAt);
+            retrievedSize = 0;
+            List<Integer> relevantDocsIdx = new ArrayList<Integer>();
+            List<Integer> nonRelevantDocsIdx = new ArrayList<Integer>();
+
+            result = queryTask(q);
+            int d = 0;
+            for (DocumentRank docRank : result) {
+                if (docRank.getSC()>0 && retrievedSize<option.topN) { //ambil topN aja
+                    if (relevance.contains(docRank.getDocNum())) {
+                        relevantDocsIdx.add(docRank.getDocNum());
+                        if (option.secondRetrievalDocs==1) { //jika retrieval kedua menggunakan dokumen baru
+                            relevanceJudgement.instances().get(qAt).remove(docRank.getDocNum());
+                        }
+                    }
+                    else {
+                        nonRelevantDocsIdx.add(docRank.getDocNum());
+                    }
+                    retrievedSize++;
+                }
+                else break;
+            }
+
+            //perhitungan query weighting baru, iterate per term dari query, tanpa query expansion
+            if (option.isQueryExpansion) {
+                /* Dari slide-query expansion: query awal ditambahkan sejumlah kata yang
+                berasal dari dokumen-dokumen yang relevan */
+
+                int querySize = q.getUniqueTerms().size();
+                Set<String> expansionTerms = new TreeSet<String>(); //karena hal ini, jadinya gk terururt
+                int relevantDocs = relevantDocsIdx.size();
+                for (int doc=0; doc<relevantDocs; doc++) {
+                    expansionTerms.addAll(tokenizedDocuments.get(doc).getText());
+                }
+
+                q.addQueryTerms(expansionTerms); //lgsg ditambahin weight juga sebanyak expansion terms dengan nilai 0.0
+                queries.setQuery(qAt, q);
+            }
+            int N = q.getUniqueTerms().size();
+            int[] queryTermIdx = new int[N];
+
+            int it = 0;
+            for (String term : q.getUniqueTerms()) {
+                queryTermIdx[it] = vsm.indexOfTerms(term);
+                it++;
+            }
+            for (int term = 0; term < N; term++) {
+                double sum = 0.0;
+                double sumIrre = 0.0;
+                for (int doc=0; doc<relevantDocsIdx.size(); doc++) {
+                    sum += vsm.weight(term, doc);
+                }
+                if (option.relevanceFeedbackAlgo!=2) { //klo ide dec hi, tidak perlu dihitung
+                    for (int doc = 0; doc < nonRelevantDocsIdx.size(); doc++) {
+                        sumIrre += vsm.weight(term, doc);
+                    }
+                }
+                double newWeight = 0.0;
+                if (option.isRelevanceFeedback) {
+                    if (option.relevanceFeedbackAlgo == 0) { //rocchio
+                        //alfa, beta, gama dianggap 1
+                        newWeight = q.getWeightAt(term) + (sum / (double) relevantDocsIdx.size()) - (sumIrre / (double) nonRelevantDocsIdx.size());
+                    } else if (option.relevanceFeedbackAlgo == 1) { //ide reguler
+                        newWeight = q.getWeightAt(term) + sum - sumIrre;
+                    } else { //ide dec hi
+                        newWeight = q.getWeightAt(term) + sum - vsm.weight(term, nonRelevantDocsIdx.get(0));
+                    }
+                }
+                else { //pseudo relevance feedback
+                } if (option.relevanceFeedbackAlgo == 1) { //ide reguler
+                    newWeight = q.getWeightAt(term) + sum + sumIrre;
+                } else if (option.relevanceFeedbackAlgo == 2){ //ide dec hi
+                    newWeight = q.getWeightAt(term) + sum + sumIrre;
+                }
+                else { //rocchio
+                    //alfa, beta, gama dianggap 1
+                    newWeight = q.getWeightAt(term) + (sum / (double) relevantDocsIdx.size()) + (sumIrre / (double) nonRelevantDocsIdx.size());
+                }
+                queries.setWeight(qAt, term, newWeight);
+            }
+            qAt++;
+        }
+
+        //query ke-2, pake fungsi retrieval yang lama
+        secondRetrievalLaporan();
+    }
+
+    /**
+     * Melakukan banyak query ke collection, menggunakan query testing
+     */
+    public void secondRetrievalLaporan() {
+        try {
+            String algo = "";
+            if (option.relevanceFeedbackAlgo==0) {
+                algo = "Rocchio";
+            }
+            else if (option.relevanceFeedbackAlgo==1) {
+                algo = "IdeReguler";
+            }
+            else if (option.relevanceFeedbackAlgo==2) {
+                algo = "IdeDecHi";
+            }
+            else algo = "Pseudo";
+            PrintWriter writer = new PrintWriter("laporan/"+option.documentPath.substring(17,20)+"_"+algo+".csv");
+            writer.println(option.documentPath);
+            writer.println(algo);
+            writer.println("Query, Precision, Recall, NonInterpolatedAvgPrecision");
+
+            /* Untuk output CSV */
+            List<DocumentRank> result;
+            int retrievedSize = 0;
+            int relevanceSize = 0;
+            double precision = 0;
+            double recall = 0;
+            double nonInterpolatedAveragePrecision = 0;
+
+            // Evaluasi setiap document yang diretrieve dengan relevance judgment pada setiap query
+            Collection<Query> qex = queries.getQueries().values();
+            int qAt = 0;
+            double avgPrecision = 0.0;
+            double avgRecall = 0.0;
+            double avgNIP = 0.0;
+            for (Query q : qex) {
+                Collection<Integer> relevance = relevanceJudgement.get(qAt);
+                List<Integer> retrievedDocNum = new ArrayList<Integer>();
+                List<Double> SCdocs = new ArrayList<Double>();
+                retrievedSize = 0;
+                relevanceSize = 0;
+                nonInterpolatedAveragePrecision = 0;
+                precision = 0;
+                recall = 0;
+
+                result = queryTaskWithoutWeighting(q);
+
+                int d = 0;
+                for (DocumentRank docRank : result) {
+                    if (docRank.getSC()>0 && retrievedSize<option.showN) { //dianggap relevan klo SC tidak 0
+                        retrievedSize++;
+                        if (option.isExperiment)
+                            if (relevance.contains(docRank.getDocNum())) {
+                                relevanceSize++;
+                                nonInterpolatedAveragePrecision = nonInterpolatedAveragePrecision + ((double) relevanceSize / (double) retrievedSize);
+                            }
+                        retrievedDocNum.add(docRank.getDocNum());
+                        SCdocs.add(docRank.getSC());
+                    }
+                }
+
+                if (option.isExperiment) {
+                    if (retrievedSize > 0 && relevanceSize>0) {
+                        precision = (double) relevanceSize / (double) retrievedSize;
+                        recall = (double) relevanceSize / (double) relevance.size();
+                        nonInterpolatedAveragePrecision = nonInterpolatedAveragePrecision / (double) relevance.size();
+                    } else {
+                        precision = 0;
+                        recall = 0;
+                        nonInterpolatedAveragePrecision = 0;
+                    }
+                    /*writer.println(retrievedSize);
+                    writer.println(precision);
+                    writer.println(recall);
+                    writer.println(nonInterpolatedAveragePrecision);
+                    for (int i=0; i<retrievedSize; i++) {
+                        writer.println(retrievedDocNum.get(i)+1);
+                        writer.println(SCdocs.get(i));
+                        writer.println(docs.getDocument(retrievedDocNum.get(i)));
+                    }*/
+                    System.out.println((qAt+1)+", "+precision+", "+recall+", "+nonInterpolatedAveragePrecision);
+                    writer.println((qAt+1)+", "+precision+", "+recall+", "+nonInterpolatedAveragePrecision);
+                    avgPrecision+=precision; avgRecall+=recall; avgNIP+=nonInterpolatedAveragePrecision;
+                }
+                qAt++;
+            }
+            writer.println("average, "+avgPrecision/qAt+", "+avgRecall/qAt+", "+avgNIP/qAt);
+            writer.close();
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }

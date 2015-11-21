@@ -79,10 +79,49 @@ public class mainTest {
 
     /**
      * Report Mode
-     * @param ops
      */
-    public static void generateReport(Option ops) {
+    public static void generateReport() {
+        Option ops = new Option();
+        ops.documentPath = "test_collections/INSPEC/INSPEC.all";
+        ops.queryPath = "test_collections/INSPEC/COLL_AAT";
+        ops.relevanceJudgmentPath = "test_collections/INSPEC/QRELSAAO";
+        ops.topN = 20;
+        ops.showN = 40;
+        for (int i=0; i<4; i++) {
+            if (i==0) {
+                ops.relevanceFeedbackAlgo = 0;
+                ops.isRelevanceFeedback = true;
+            }
+            else if (i==1) {
+                ops.relevanceFeedbackAlgo = 1;
+                ops.isRelevanceFeedback = true;
+            }
+            else if (i==2) {
+                ops.relevanceFeedbackAlgo = 2;
+                ops.isRelevanceFeedback = true;
+            }
+            else if (i==3) {
+                ops.relevanceFeedbackAlgo = -1;
+                ops.isRelevanceFeedback = false;
+            }
+            ops.print();
+            Documents docs = new Documents(ops.documentPath);
+            TokenizedDocuments tokDocs = new TokenizedDocuments();
+            tokDocs.preprocessRawDocuments(docs, ops);
 
+            Queries q = new Queries(ops.queryPath);
+            q.preprocess(ops);
+
+            RelevanceJudgement r = new RelevanceJudgement(ops.relevanceJudgmentPath, q.size());
+            VSM vsm = new VSM(ops);
+            vsm.makeTFIDFWeightMatrix(tokDocs);
+            //vsm.save("savedFiles");
+
+            System.out.println("Performing query");
+            DocumentRanker dr = new DocumentRanker(vsm, tokDocs, r, q, ops, docs);
+
+            dr.experimentLaporan();
+        }
     }
 
     /**
@@ -183,13 +222,13 @@ public class mainTest {
     public static void main(String[] args)
     {
         //singleton option variable, refer to option to change the default configuration
-        Option ops = new Option();
+        /*Option ops = new Option();
         ops.load();
         ops.print();
 
-        /*ops.isExperiment = false;
+        ops.isExperiment = false;
         ops.relevanceFeedbackAlgo = 1;
-        ops.isSecondRetrieval = false;*/
+        ops.isSecondRetrieval = false;
 
         if (ops.isExperiment) {
             experiment(ops);
@@ -208,6 +247,8 @@ public class mainTest {
                     firstRetrieval(ops);
                 }
             }
-        }
+        }*/
+
+        generateReport();
     }
 }

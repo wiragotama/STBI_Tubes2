@@ -79,7 +79,7 @@ public class Option {
         this.queryPath = "test_collections/adi/query.text";
         this.relevanceJudgmentPath = "test_collections/adi/qrels.text";
         this.queryInput = "information retrieval";
-        this.topN = 0;
+        this.topN = 10;
         this.showN = 10;
         isSecondRetrieval = false;
     }
